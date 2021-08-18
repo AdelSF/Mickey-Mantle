@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 
-export default function Test() {
+export default function HomeRuns() {
     return (
         <Container>
-            Test
+            home run component
         </Container>
     )
 }
