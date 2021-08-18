@@ -5,17 +5,17 @@ export default function Home() {
     return (
         <Container>
             <Section1>
-                <TopImgMicky src="../src/assets/other/Micky-3.png" alt="Micky Hits The Ball" />
+                <TopImgMicky src="../src/assets/mickey-photos/Micky-3.png" alt="Micky Hits The Ball" />
                 <div>
                     <H2>Mickey</H2>
                     <H1>Mantle</H1>
-                    <TopImgBall src="../src/assets/other/smoking-ball.jpg" alt="The ball on top" />
+                    <TopImgBall src="../src/assets/mickey-photos/smoking-ball.jpg" alt="The ball on top" />
                 </div>
             </Section1> 
             <Section2>
-                <MickyOnLeftImg src="../src/assets/other/Micky-1.jpg" alt="Micky Smiling" />
+                <MickyOnLeftImg src="../src/assets/mickey-photos/Micky-1.jpg" alt="Micky Smiling" />
                 <div>
-                    <TheAmericanDreamImg src="../src/assets/other/header.jpeg" alt="The American Dream comes to life" /> 
+                    <TheAmericanDreamImg src="../src/assets/mickey-photos/header.jpeg" alt="The American Dream comes to life" /> 
                     <Article>
                         Welcome to our Official Mickey Mantle: The American Dream Comes To Life® Store. Operating since 1988, our first product was the award-winning "videography™" program, Mickey Mantle: The American Dream Comes To Life®. It's the first truly autobiographical documentary ever made. Mickey tells his own stories - from both on and off the field - in his own words, capturing his warmth, charm, humor and charisma. It became a BILLBOARD Magazine National Bestseller for two consecutive years and was broadcast nationwide on Public Television. USA Today, The New York Daily News and The Washington Post/Los Angeles Times Syndicate all called it, "The best baseball program ever made!" (In the photo Mickey and producer/director Lew Rothgeb are at Mickey Mantle's Restaurant in New York announcing the program's release on video.) Mickey said it was, "The best project I ever did!"
                     </Article>
