@@ -25,7 +25,9 @@ export default function Home() {
             <BottomSectionText>THE AMERICAN DREAM COMES TO LIFE</BottomSectionText>
             <Section3>
                 <div>
-                    <H3>Short Biography</H3> 
+                    <H4>Short Biography</H4>
+                    <MickeyFamilyImg src="../src/assets/mickey-photos/mm-family.jpeg" alt="Mickey Mantle image with family" /> 
+                    
                     <H3>Named after a Hall of Fame Catcher</H3> 
                         <Article2>
                             Mickey Charles Mantle was born on October 20, 1931 in Spavinaw, Oklahoma. Just a few short years later his family moved to Commerce, OK. Mickey was the oldest son of Elvin "Mutt" Mantle and Lovell Mantle. Mutt, a lead miner, was a big baseball fan and played semi-pro baseball himself. He named Mickey after his favorite player - Hall of Fame catcher Mickey Cochrane. (Mickey often joked that he was glad his father didn't know Cochrane's given name was Gordon.) Mickey had three brothers: twins Ray & Roy and Butch, and a sister, Barbara.  (In the photo on the right clockwise from upper left: Mick's twin brothers Ray & Roy, his sister Barbara, Mickey, his brother Butch, his mother Lovell, and Mickey's father Elvin "Mutt" Mantle.)
@@ -163,15 +165,30 @@ const Section3 = styled.section`
     margin: 5%;
     font-size: 1.4rem;
     text-align: justify;
+    border: 2px solid white;
+    padding: 10px;
+    background-color: #8E8E8E;
 `
 const H3 = styled.h3`
     color: white;
-    margin: 5%;
+    margin: 6% 5% 0 5%;
     text-align: justify;
+    text-shadow: 3px 3px black;
+`
+const H4 = styled.h1`
+    display: flex;
+    justify-content: center;
+    color: orange;
+    text-shadow: 3px 3px black;
+    font-size: 2.5rem;
+`
+const MickeyFamilyImg = styled.img`
+    display: block;
+    margin: 0 auto;
 `
 const Article2 = styled.article`
-    color: white;
-    margin: 5%;
+    color: black;
+    margin: 1% 5%;
     font-size: 1.4rem;
     text-align: justify;
 `
