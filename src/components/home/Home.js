@@ -23,6 +23,32 @@ export default function Home() {
                 </div>
             </Section2>
             <BottomSectionText>THE AMERICAN DREAM COMES TO LIFE</BottomSectionText>
+            <Section3>
+                <div>
+                    <H4>Short Biography</H4>
+                    <MickeyFamilyImg src="../src/assets/mickey-photos/mm-family.jpeg" alt="Mickey Mantle image with family" /> 
+                    
+                    <H3>Named after a Hall of Fame Catcher</H3> 
+                        <Article2>
+                            Mickey Charles Mantle was born on October 20, 1931 in Spavinaw, Oklahoma. Just a few short years later his family moved to Commerce, OK. Mickey was the oldest son of Elvin "Mutt" Mantle and Lovell Mantle. Mutt, a lead miner, was a big baseball fan and played semi-pro baseball himself. He named Mickey after his favorite player - Hall of Fame catcher Mickey Cochrane. (Mickey often joked that he was glad his father didn't know Cochrane's given name was Gordon.) Mickey had three brothers: twins Ray & Roy and Butch, and a sister, Barbara.  (In the photo on the right clockwise from upper left: Mick's twin brothers Ray & Roy, his sister Barbara, Mickey, his brother Butch, his mother Lovell, and Mickey's father Elvin "Mutt" Mantle.)
+                        </Article2>
+                    
+                    <H3>Mickey's Father Teaches Him to Be a Great Hitter</H3> 
+                        <Article2>
+                            Mutt passed his love of the game on to Mickey from almost the moment he was born. As soon as Mickey was old enough to swing a bat and throw a ball, Mickey's father Mutt and grandfather Charlie pitched to him everyday after school in front of a leaning tin barn by their house at 319 S. Quincy in Commerce, OK. (This is where Mickey lived until he was 14. The home and barn are going through a complete restoration to honor Mickey and the Mantle family.) Mutt, a righty, and Charlie, a lefty, taught Mickey to switch-hit at a very early age. They alternated pitching to him so that Mickey could learn to hit from both sides of the plate. The tin barn acted as a backstop. Mickey also developed tremendous strength working at the lead mines during the summers. One job in particular, that of "screen ape," was responsible for Mickey's incredibly strong wrists, shoulders, arms and forearms. A screen ape smashed large rocks into small stones with a sledgehammer. There were two screen apes, one of whom smashed rocks until he couldn't hold the hammer any longer, and then rested while the other took his turn. The strength Mickey developed from this work and other farm chores gave him the strength to hit some of the longest home runs in the history of the game.
+                        </Article2>
+                    
+                    <H3>Mickey's Bout with Osteomyelitis</H3> 
+                        <Article2>
+                            By the time he reached high school Mickey's ability was well beyond that of his contemporaries. He was a gifted athlete, playing not only baseball but also football and basketball. It was during practice for a high school football game that tragedy befell Mickey. He was accidentally kicked on the left shin, and the wound developed into the bone disease osteomyelitis. It became so serious doctors wanted to amputate Mickey's leg. Mickey's mother wouldn't hear of it, and Mutt drove Mickey 175 miles to the Crippled Children's Hospital in Oklahoma City. There Mickey was treated with a new wonder drug, receiving doses every three hours around the clock. Miraculously he responded, and Mickey's leg was saved. The drug: penicillin. Unfortunately, the injury was just the first among many that were to hinder Mickey for the rest of his life. However, this bout with osteomyelitis rendered Mickey unfit for military service for life, another issue that arose later in life.
+                        </Article2>
+                    
+                    <H3>The Baxter Springs Whiz Kids</H3> 
+                        <Article2>
+                            Once he'd recovered from his injury he quickly advanced past other players his age, and at sixteen played with a local semi-pro team, the Baxter Springs Whiz Kids. Although players usually were considered for the Whiz Kids only after turning age 18, Mickey easily fit in with the older players, becoming one of the best players in the area. Word of Mickey's ability, however, hadn't spread beyond northeastern Oklahoma. That was about to change... 
+                        </Article2>
+                </div>
+            </Section3>
         </Container>
     )
 }
@@ -133,4 +159,36 @@ const BottomSectionText = styled.h3`
         margin: 4% 2%;
         font-size: .8rem;
     }
+`
+const Section3 = styled.section`
+    color: white;
+    margin: 5%;
+    font-size: 1.4rem;
+    text-align: justify;
+    border: 2px solid white;
+    padding: 10px;
+    background-color: #8E8E8E;
+`
+const H3 = styled.h3`
+    color: white;
+    margin: 6% 5% 0 5%;
+    text-align: justify;
+    text-shadow: 3px 3px black;
+`
+const H4 = styled.h1`
+    display: flex;
+    justify-content: center;
+    color: orange;
+    text-shadow: 3px 3px black;
+    font-size: 2.5rem;
+`
+const MickeyFamilyImg = styled.img`
+    display: block;
+    margin: 0 auto;
+`
+const Article2 = styled.article`
+    color: black;
+    margin: 1% 5%;
+    font-size: 1.4rem;
+    text-align: justify;
 `
