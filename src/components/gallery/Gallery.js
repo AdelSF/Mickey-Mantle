@@ -6,10 +6,10 @@ import Video from './Video'
 export default function Gallery() {
 
     return (
-        <Container>
+        <container>
             <Cards>
-                {/* <TopImgMicky src="../src/assets/cards/1952.gif" alt="Micky Hits The Ball" /> */}
             </Cards>
+            <H1>Video Section</H1>
             <Videos>
                 {VideoJson.map((data, i) => {
                     return(
@@ -17,40 +17,33 @@ export default function Gallery() {
                     )
                 })}
             </Videos>
-           
-
-        </Container>
+        </container>
     )
 }
 
-const Container = styled.div`
-    color: red;
-`
+
 const Cards = styled.div`
-    color: red;
+    
+    `
+const H1 = styled.h1`
+    color: orange;
+    font-size: 3rem;
+    -webkit-text-stroke: 1px white;
+    margin: 10% 0 3% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 `
 const Videos = styled.div`
-    color: red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    @media (max-width: 1300px) {
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+    @media (max-width: 850px) {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
 `
-const Div1 = styled.div`
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
-    border: 1px solid white;
-`
-const VideoTitle = styled.h2`
-    color: red;
-    width: 200px;
-    /* display: block; */
-`
-const VideoDescription = styled.h2`
-    color: red;
-    width: 400px;
-    /* display: inline; */
-`
-const TopImgMicky = styled.img`
-    width: 20%;
-    margin: 0 50px;
-    /* @media (max-width: 1200px) {
-    } */
-    `
