@@ -1,30 +1,35 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import VideoJson from '../../assets/json/videos.json'
+import CardsJson from '../../assets/json/cards.json'
 import Video from './Video'
+import Card from './Card'
 
 export default function Gallery() {
 
     return (
-        <container>
+        <>
+            <H1>Baseball Cards</H1>
             <Cards>
+                {CardsJson.map((card, i) => {
+                    return(
+                        <Card yearAndNumber={card.yearAndNumber} title={card.title} description={card.description} src={card.src} key={i}/>
+                    )
+                })}
             </Cards>
             <H1>Video Section</H1>
             <Videos>
-                {VideoJson.map((data, i) => {
+                {VideoJson.map((video, i) => {
                     return(
-                        <Video title={data.title} description={data.description} src={data.src} key={i}/>
+                        <Video title={video.title} description={video.description} src={video.src} key={i}/>
                     )
                 })}
             </Videos>
-        </container>
+        </>
     )
 }
 
 
-const Cards = styled.div`
-    
-    `
 const H1 = styled.h1`
     color: orange;
     font-size: 3rem;
@@ -35,6 +40,19 @@ const H1 = styled.h1`
     justify-content: center;
 `
 const Videos = styled.div`
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    @media (max-width: 1300px) {
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+    @media (max-width: 850px) {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+`
+const Cards = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
