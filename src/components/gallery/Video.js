@@ -4,7 +4,6 @@ import styled from 'styled-components'
 export default function Video(props) {
 
     return (
-        <>
             <Videos>
                 <Div>
                    <H2>{props.title}</H2>
@@ -12,7 +11,6 @@ export default function Video(props) {
                    <Iframe src={props.src} frameBorder="0" width="425" height="350" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></Iframe>
                 </Div>
             </Videos>
-        </>
     )
 }
 

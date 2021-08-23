@@ -1,19 +1,16 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 
-export default function Card(props) {
-
+export default function Card({card: {description, yearAndNumber, title, src}}) {
     return (
-        <>
-            <Cards>
-                <Div>
-                    <H1>{props.yearAndNumber}</H1>
-                    <H3>{props.title}</H3>
-                    <P>{props.description}</P>
-                    <Img src={props.src} />
-                </Div>
-            </Cards>
-        </>
+        <Cards>
+            <Div>
+                <H1>{yearAndNumber}</H1>
+                <H3>{title}</H3>
+                <P>{description}</P>
+                <Img src={src} />
+            </Div>
+        </Cards>
     )
 }
 
@@ -21,7 +18,7 @@ const Cards = styled.div`
     display: flex;
     width: 450px;
     height: 610px;
-    `
+`
 const Div = styled.div`
     border: 2px solid orange;
     border-radius: 10px;

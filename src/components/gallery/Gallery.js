@@ -1,24 +1,32 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import VideoJson from '../../assets/json/videos.json'
-import CardsJson from '../../assets/json/cards.json'
+import cards from '../../assets/json/cards.json'
 import Video from './Video'
 import Card from './Card'
 
+
 export default function Gallery() {
+    const [cardQty, setCardQty] = useState(6)
+
+    function seeMoreCardsOnClick() {
+        if (cardQty + 6 < cards.length){
+            setCardQty(cardQty + 6)
+        } else {
+            setCardQty(cardQty + (cards.length - cardQty))
+        }
+    }
 
     return (
         <>
             <H1>Baseball Cards</H1>
             <Cards>
-                {CardsJson.map((card, i) => {
-                    return(
-                        <Card yearAndNumber={card.yearAndNumber} title={card.title} description={card.description} src={card.src} key={i}/>
-                    )
-                })}
+                {[...Array(cardQty).keys()].map((index) => <Card card={cards[index]} key={`card${index}`}/> )}
             </Cards>
+            <SeeMoreCardsBtn onClick={seeMoreCardsOnClick}>See More Cards</SeeMoreCardsBtn>
+
             <H1>Video Section</H1>
-            <Videos>
+            <Videos>    
                 {VideoJson.map((video, i) => {
                     return(
                         <Video title={video.title} description={video.description} src={video.src} key={i}/>
@@ -64,4 +72,12 @@ const Cards = styled.div`
         grid-template-columns: 1fr;
         justify-items: center;
     }
+`
+
+const SeeMoreCardsBtn = styled.button`
+    font-size: 1.1rem;
+    display: block;
+    margin: 40px auto;
+    height: 50px;
+    width: 200px;
 `
