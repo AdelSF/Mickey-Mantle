@@ -1,0 +1,47 @@
+[
+    {
+        "question": "1. When was Mickey Mantle born, and where was his birthplace?",
+        "answer": "Mickey was born on October 20, 1931 in Spavinaw, Oklahoma, located about 35 miles southwest of the town of Commerce.",
+        "imgSrc": "../src/assets/about-us-photos/ab.jpeg"      
+    },
+    {
+        "question": "2. What can you tell us about Mickey's family?",
+        "answer": "Mickey was the oldest son of Elvin \"Mutt\" Mantle and Lovell Mantle. He had three brothers: twin brothers Ray and Roy and brother Butch, the youngest, as well as a sister, Barbara. He married hometown sweetheart Merlyn Johnson on December 23, 1951 and had four sons: Mickey Jr., David, Billy and Danny.",
+        "imgSrc": "../src/assets/about-us-photos/ab.jpeg"
+    },
+    {
+        "question": "3. How did Mickey become a switch-hitter and such a great home run hitter?",
+        "answer": "Mickey's dad, Mutt Mantle, was a great baseball fan. He shared his love of the game with Mickey. Every day after Mickey came home from school and Mutt returned from working in the lead mines, he and Mickey's grandfather Charlie would pitch to Mickey. Mickey batted left-handed against Mutt, who was right-handed, and right-handed against Grandpa Charlie, who was a lefty. From an early age Mickey showed tremendous natural talent and great power from both sides of the plate. It is said that Mutt foresaw the platooning that later became common in baseball, and that by teaching Mickey to switch-hit he insured that Mickey would play more in later years.",
+        "imgSrc": "../src/assets/about-us-photos/mm-mutt-at-lead-mines.jpeg"
+    },
+    {
+        "question": "4. I know Mickey had problems with his legs. How did he originally injure them?",
+        "answer": "While playing high school football Mickey was accidentally kicked in the leg. The wound developed into the bone disease osteomyelitis, and it almost cost Mickey his leg. Mickey's mother refused to let doctors remove his leg and transferred him to the Crippled Children's Yankees' scout Tom Greenwade examines Mickey Mantle's knee. Mickey points to the scar from his injury in the 1951 World Series.Hospital in Oklahoma City, where he received a brand-new wonder drug, penicillin. It saved his leg. However, Mickey was plagued with leg problems for the remainder of his life.",
+        "imgSrc": "../src/assets/about-us-photos/greenwade-mm-knee-exam.jpeg"
+    },
+    {
+        "question": "5. How did the Yankees discover Mickey Mantle?",
+        "answer": "When Mickey was in high school he played baseball with a team called the Baxter Springs Whiz Kids. New York Yankees' scout Tom Greenwade was sent to see a teammate of Mickey's named Billy Johnson. In that game Mickey hit two long home runs into a river that ran behind the ballpark's outfield fence. Greenwade was so impressed he wanted to sign Mickey with the Yankees on the spot. Upon finding out that Mickey was still in high school, he told Mickey that he would come back and sign him right after he graduated from high school, which is exactly what he did.",
+        "imgSrc": "../src/assets/about-us-photos/greenwade-mm-knee-exam.jpeg"
+    },
+    {
+        "question": "6. When was Mickey's first season with the Yankees?",
+        "answer": "Mickey's first season with the Yankees was 1951. After a terrific spring training in Arizona (the Yankees, who regularly trained in Florida, traded spring training camps with the NY Giants that spring), Casey Stengel talked owners Del Webb and Dan Topping, and General Manager George Weiss, into signing Mantle. He even convinced them to pay Mickey a $7,500 salary, $2,500 above the $5,000 major league minimum.",
+        "imgSrc": "../src/assets/about-us-photos/AboutJoe.jpeg"
+    },
+    {
+        "question": "7. When did Mickey play his first major league game?",
+        "answer": "Mickey's first major league game was against the Boston Red Sox at Yankee Stadium on April 17, 1951. Mickey played rightfield, where he made three putouts. At the plate he went 1-for-4 with an rbi single to leftfield in the sixth, and he scored a run that same inning when Yogi Berra singled to center.",
+        "imgSrc": "src/assets/about-us-photos/mm-joe-d-pose-frm.jpeg"
+    },
+    {
+        "question": "8. What was Mickey's original uniform number with the Yankees?",
+        "answer": "When Mickey first came up with the Yankees he was given uniform number six. In photos from the first part of the 1951 season he can be seen wearing number six. In July of that year, after a particularly horrendous slump, Casey Stengel sent Mickey down to the Yankees Triple A minor league team in Kansas City to regain his batting swing. In August Mickey was brought back up and was given his famous uniform number seven, which had become vacant while he was away. Seven remained his number for the remainder of his career.",
+        "imgSrc": "../src/assets/about-us-photos/6-rh-hr-175px-wide.jpeg"
+    },
+    {
+        "question": "9. What was Mickey 's biggest contract with the Yankees?",
+        "answer": "Mickey's largest contract with the Yankees was for $100,000. At the time he signed it in 1963 only Joe DiMaggio had received that much before. Mickey continued to play for that amount for the remainder of his career. Mickey, a very humble man, felt that it would be disrespectful of Joe DiMaggio for him to make more money than Joe. Naturally the Yankees were happy to oblige Mickey's stance.Of course, that was in the days when the \"reserve clause\" was included in every player's contract, thereby preventing players from moving to a different team without the consent of their current team. It had the effect of holding down salaries, preventing players from negotiating fair market value. Curt Flood was the first player to mount a legal challenge against the reserve clause, in 1969. The Supreme Court ruled to \"stand by things ruled\" (stare decisis) and left the reserve clause intact. His courageous stance brought baseball's anti-labor stance into the public eye. In 1975 pitchers Andy Messersmith and Dave McNally again challenged the reserve clause, this time in arbitration, and they were victorious. the way for other players to challenge it in the future. When asked what he thought he would make if he were playing now, Mickey said he liked what Joe DiMaggio said. Joe said that, if he were playing now, he would go up and knock on the door at Yankee Stadium. When Mr. Steinbrenner opened the door he would say, \"Howdy partner!\"",
+        "imgSrc": "../src/assets/about-us-photos/mm-holds-62-contract.jpeg"
+    }
+]
