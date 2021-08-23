@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 
-export default function Video(props) {
+export default function Video({video: {title, description, src}}) {
 
     return (
             <Videos>
                 <Div>
-                   <H2>{props.title}</H2>
-                   <P>{props.description}</P>
-                   <Iframe src={props.src} frameBorder="0" width="425" height="350" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></Iframe>
+                   <H2>{title}</H2>
+                   <P>{description}</P>
+                   <Iframe src={src} frameBorder="0" width="425" height="350" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></Iframe>
                 </Div>
             </Videos>
     )

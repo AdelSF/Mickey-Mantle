@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import VideoJson from '../../assets/json/videos.json'
+import videos from '../../assets/json/videos.json'
 import cards from '../../assets/json/cards.json'
 import Video from './Video'
 import Card from './Card'
@@ -8,12 +8,20 @@ import Card from './Card'
 
 export default function Gallery() {
     const [cardQty, setCardQty] = useState(6)
+    const [videoQty, setVideoQty] = useState(6)
 
     function seeMoreCardsOnClick() {
         if (cardQty + 6 < cards.length){
             setCardQty(cardQty + 6)
         } else {
             setCardQty(cardQty + (cards.length - cardQty))
+        }
+    }
+    function seeMoreVideosOnClick() {
+        if (videoQty + 6 < videos.length){
+            setVideoQty(videoQty + 6)
+        } else {
+            setVideoQty(videoQty + (videos.length - videoQty))
         }
     }
 
@@ -26,13 +34,18 @@ export default function Gallery() {
             <SeeMoreCardsBtn onClick={seeMoreCardsOnClick}>See More Cards</SeeMoreCardsBtn>
 
             <H1>Video Section</H1>
-            <Videos>    
-                {VideoJson.map((video, i) => {
+            <Videos>
+                {[...Array(videoQty).keys()].map((index) => <Video video={videos[index]} key={`video${index}`}/> )}
+  
+                {/* {VideoJson.map((video, i) => {
                     return(
                         <Video title={video.title} description={video.description} src={video.src} key={i}/>
+
                     )
-                })}
+                })} */}
             </Videos>
+            <SeeMoreVideosBtn onClick={seeMoreVideosOnClick}>See More Videos</SeeMoreVideosBtn>
+
         </>
     )
 }
@@ -75,6 +88,13 @@ const Cards = styled.div`
 `
 
 const SeeMoreCardsBtn = styled.button`
+    font-size: 1.1rem;
+    display: block;
+    margin: 40px auto;
+    height: 50px;
+    width: 200px;
+`
+const SeeMoreVideosBtn = styled.button`
     font-size: 1.1rem;
     display: block;
     margin: 40px auto;
