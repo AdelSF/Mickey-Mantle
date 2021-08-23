@@ -36,13 +36,6 @@ export default function Gallery() {
             <H1>Video Section</H1>
             <Videos>
                 {[...Array(videoQty).keys()].map((index) => <Video video={videos[index]} key={`video${index}`}/> )}
-  
-                {/* {VideoJson.map((video, i) => {
-                    return(
-                        <Video title={video.title} description={video.description} src={video.src} key={i}/>
-
-                    )
-                })} */}
             </Videos>
             <SeeMoreVideosBtn onClick={seeMoreVideosOnClick}>See More Videos</SeeMoreVideosBtn>
 
