@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import HomeRun from './HomeRun'
+import HomeRunTable from './HomeRunTable'
 import homeRunJson from '../../assets/json/homeRuns.json'
 
 export default function HomeRuns() {
@@ -21,7 +21,7 @@ export default function HomeRuns() {
     }
     }).map((data, i) => { 
         return (
-                <HomeRun data={data} key={`data${i}`}/>
+                <HomeRunTable data={data} key={`data${i}`}/>
         ) 
     })
     return (
