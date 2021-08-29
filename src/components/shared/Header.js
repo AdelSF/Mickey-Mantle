@@ -40,11 +40,10 @@ const Menu = styled.header`
 `
 
 const Logo = styled.img`
-    height: 85px;
-    width: 70px;
+    height: 55px;
     margin-right: 1rem;
-    /* border-radius: 50%; */
-    /* border: 3px solid white; */
+    border: 1px solid orange;
+    border-radius: 10px;
 `
 
 const Items = styled.nav`
@@ -77,6 +76,5 @@ const Ham = styled.span`
     font-size: 2rem;
     @media (min-width: 600px) {
         display: none;
-        
     }
 `
