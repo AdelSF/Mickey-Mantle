@@ -19,7 +19,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 8, White Sox 3",
         "description": "A scorching line drive hit into the centerfield seats, approximately 450 feet.",
-        "quotes&Comments": ["It was hit so hard that it got there in one second and rattled around in the seats for what seemed like five minutes." , "White Sox Pitcher Hal Brown\"It was a screwball that evidently didn't screw too much.\"" , "White Sox Pitcher Randy Gumpert"]
+        "quotesAndComments": ["It was hit so hard that it got there in one second and rattled around in the seats for what seemed like five minutes." , "White Sox Pitcher Hal Brown\"It was a screwball that evidently didn't screw too much.\"" , "White Sox Pitcher Randy Gumpert"]
     },
     {
         "homerunNum" : "002",
@@ -41,7 +41,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 8,Browns 1",
         "description": "A hard-hit 450- 500-foot homer to right-field. It left the ballpark, cleared Grand Avenue outside the park and landed in a car dealer's lot across the street. It was the first big league homer Mickey's girlfriend, Merlyn Johnson (later to become Mrs. Mickey Mantle) saw in attendance.",
-        "quotes&Comments": ["\"A sinker that I threw too high.\" - Browns' Pitcher Duane Pillette","A fiercesome homer that nearly went into the Mississippi River.\" - \"Joe Trimble, NY Daily News","\"I expected it - he told me he'd do it.\" - Merlyn Johnson (later to become Mrs. Mickey Mantle) to a reporter after the game"]
+        "quotesAndComments": ["\"A sinker that I threw too high.\" - Browns' Pitcher Duane Pillette","A fiercesome homer that nearly went into the Mississippi River.\" - \"Joe Trimble, NY Daily News","\"I expected it - he told me he'd do it.\" - Merlyn Johnson (later to become Mrs. Mickey Mantle) to a reporter after the game"]
     },
     {
         "homerunNum" : "003",
@@ -63,7 +63,7 @@
         "stolenBases": "-",
         "finalScore": "A's 5,Yankees 4",
         "description": "Mickey hit his first right-handed home run but the Yankees lost a doubleheader to the Philadelphia A's. Mickey made two rookie mistakes that hurt the Yankees: he popped out trying to bunt with a runner on third to end the first game, and he missed touching second base in the second game.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "004",
@@ -85,7 +85,7 @@
         "stolenBases": "1",
         "finalScore": "Yankees 11,Indians 3",
         "description": "Mickey's first home run at Yankee Stadium. A line drive into the left-field seats, 420 feet.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "005",
@@ -107,7 +107,7 @@
         "stolenBases": "1",
         "finalScore": "Yankees 11,White Sox 9",
         "description": "Mickey's first two-homer day came in this doubleheader. His first-game homer went into the right-centerfield bleacher seats and broke a 6-6 tie to help the Yankees win, but he misplayed two balls in centerfield, turning outs into extra-base hits.",
-        "quotes&Comments": ["\"I wanted to throw a curve ball in the dirt but it hung nicely around the letters. I knew when he hit it that it was gone.\" - Indians' Pitcher Dick Rozek"]
+        "quotesAndComments": ["\"I wanted to throw a curve ball in the dirt but it hung nicely around the letters. I knew when he hit it that it was gone.\" - Indians' Pitcher Dick Rozek"]
     },
     {
         "homerunNum" : "006",
@@ -129,7 +129,7 @@
         "stolenBases": "1",
         "finalScore": "White Sox 5,Yankees 4",
         "description": "Mickey's first two-homer day came in this doubleheader. His home run in the second-game was hit to right-field. This was a bright spot in an otherwise dismal time for Mickey. He was in the midst of a deep slump, overcome by the pressure to perform, causing him to strike out frequently. In a Memorial Day doubleheader in Boston Mickey hit his low point by striking out five consecutive times.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "007",
@@ -151,7 +151,7 @@
         "stolenBases": "-",
         "finalScore": "Red Sox 10,Yankees 4",
         "description": "Mickey was brought in as a defensive replacement and homered into the right-field seats in the ninth inning. His slump continued, and Mickey's futility and frustration built until July 13 when Casey Stengel sent Mickey down to the Yankees Triple A team, the Kansas City Blues. Mickey's dad came to his hotel where Mickey told him he thought he was through. Mickey's dad told him to pack his bags, shocking Mickey. He pleaded with his dad for another chance. Then he went on a tear. In 40 games with the Blues Mickey hit .361 with 11 homers and 50 rbi. He was brought back up to the Yankees on August 22, 1951.",
-        "quotes&Comments": ["\"You wish you were through like that kid's through.\" - Yankees' Manager Casey Stengel, to reporters asking if Mickey was through with baseball.", "\"You're nothing but a quitter. I thought I raised a ballplayer and a man.\" - Mickey's father Mutt Mantle after Mickey told him he didn't think he could make it - Mickey said it took him 15 minutes to talk his dad into giving him another chance."]
+        "quotesAndComments": ["\"You wish you were through like that kid's through.\" - Yankees' Manager Casey Stengel, to reporters asking if Mickey was through with baseball.", "\"You're nothing but a quitter. I thought I raised a ballplayer and a man.\" - Mickey's father Mutt Mantle after Mickey told him he didn't think he could make it - Mickey said it took him 15 minutes to talk his dad into giving him another chance."]
     },
     {
         "homerunNum" : "008",
@@ -173,7 +173,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 7, Indians 3",
         "description": "Before a crowd of 52,155 Mickey smoked a homer over the left-centerfield fence, leading the Yankees to win the rubber match of their three-game series with Cleveland.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "009",
@@ -195,7 +195,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 15, Browns 2",
         "description": "Mickey hit a three-run shot over the right-field barrier in the ninth-inning that went about 450 feet. Pitcher Satchel Paige handled Mickey well when they faced off earlier in the season, throwing rising fastballs that the young rookie chased \"up the ladder.\" But Mickey showed more discipline in this at-bat and hammered his first home run off the legendary Paige.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "010",
@@ -217,7 +217,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 4, Senators 0",
         "description": "On \"Old-Timers' Day\" Mickey broke open a scoreless game in the seventh with a drive deep into the last rows of the right-field bleachers near the railing alongside the Yankee bullpen, 450-465 feet.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "011",
@@ -239,7 +239,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 7, Senators 5",
         "description": "-",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "012",
@@ -261,7 +261,7 @@
         "stolenBases": "-",
         "finalScore": "Tigers 9, Yankees 2",
         "description": "Mickey crushed the first pitch of the game, sending a tape-measure blast deep into the right-field upper deck. Several eyewitnesses estimated that the ball might have gone 600 feet if not obstructed by the upper deck.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "013",
@@ -283,7 +283,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 5, White Sox 3",
         "description": "Mickey scorched a line drive into the lower right-field stands to break a 2-2 tie in the fourth inning. The win kept the Yankees 3 percentage points ahead of second-place Cleveland. This game was the turning point for the Yankees. After this big win they broke away and ended up winning the pennant by five games. Mickey finished his rookie season with 13 homers.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "014",
@@ -305,7 +305,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 5, A's 1",
         "description": "A fly ball that just made it over the left-field fence.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "015",
@@ -327,7 +327,7 @@
         "stolenBases": "-",
         "finalScore": "Browns 9, Yankees 4",
         "description": "Mickey was still troubled by his right knee, injured while chasing a fly ball in the second game of the 1951 World Series. On his way to the hospital for knee surgery Mickey leaned on his father, Mutt Mantle, for support and Mutt collapsed. They were both admitted to the hospital where it was discovered Mutt had Hodgkin's disease. Mutt remained seriously ill, finally succumbing six days after this game - May 6, 1952. Hodgkin's Disease is inherited, and its specter haunted Mickey throughout his life.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "016",
@@ -349,7 +349,7 @@
         "stolenBases": "-",
         "finalScore": "A's 2, Yankees 1",
         "description": "The first game of a doubleheader is a 14-inning pitchers' duel. Mickey almost homered in the bottom of the 14th when he pounded a shot 420 feet to left field. The ball landed on top of the auxiliary scoreboard and bounced into the bleachers for a ground-rule double. With Mickey's speed, had the ball bounced back onto the field he may well have had an inside-the-park home run, but certainly a triple. Instead he was stranded on second base to end the game. The Yankees lost the nightcap and found themselves in a dismal fifth place.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "017",
@@ -371,7 +371,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 8, Indians 2",
         "description": "The first game of a doubleheader swept by the Yankees. They've gone 13-2 for the month of June and now find themselves in first place.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "018",
@@ -393,7 +393,7 @@
         "stolenBases": "-",
         "finalScore": "Tigers 7, Yankees 6",
         "description": "Mickey tied the game with a tremendous home run into the upper deck in left-centerfield, but the Tigers managed to hold on for the win. The Detroit News claims Mickey's tape-measure homer was the first ball ever hit into the upper deck in left-centerfield.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "019",
@@ -415,7 +415,7 @@
         "stolenBases": "-",
         "finalScore": "White Sox 2, Yankees 1",
         "description": "Mickey tied the game with his homer but to no avail, as the White Sox went on to win by a run.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "020",
@@ -437,7 +437,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 10, A's 0",
         "description": "-",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "021",
@@ -459,7 +459,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 3, A's 1",
         "description": "Mickey unloaded a tremendous drive into the upper deck in left field to tie the game 1-1. He was also named to the American League All-Star team for the first time, although he didn't appear in the game played on July 8th here in Philadelphia.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "022",
@@ -481,7 +481,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 5, A's 2",
         "description": "Mickey's third homer of the season off Bobby Shantz. Shantz went 24-7 in 1952 and was named the American League's Most Valuable Player.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "023",
@@ -503,7 +503,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 11, Tigers 1",
         "description": "Mickey homered into the right-field bleachers after singling three times in the first game of a doubleheader.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "024",
@@ -525,7 +525,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 12, Tigers 11",
         "description": "Mickey homered from both sides of the plate on the same day. In this second game of a twin bill Mickey connected off lefty Hal Newhouser, hitting a drive into the left-field seats. It was his fifth straight hit in the doubleheader.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "025",
@@ -547,7 +547,7 @@
         "stolenBases": "-",
         "finalScore": "Indians 7, Yankees 3",
         "description": "Mickey powered a long home run deep into the right-centerfield seats late in the game.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "026",
@@ -569,7 +569,7 @@
         "stolenBases": "-",
         "finalScore": "Indians 11, Yankees 6",
         "description": "-",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "027",
@@ -591,7 +591,7 @@
         "stolenBases": "-",
         "finalScore": "Tigers 2, Yankees 1",
         "description": "Mickey's long drive into the upper deck in right field spotted the Yankees to a 1-0 lead. Mickey got his third consecutive hit in the sixth when he singled Yogi Berra to third. Berra was stranded there, in part due to an uncharacteristic base running error by Mickey, who was picked-off when caught between first and second. bases. This left-handed tape-measure homer was repeated right-handed in the next game.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "028",
@@ -613,7 +613,7 @@
         "stolenBases": "-",
         "finalScore": "Tigers 10, Yankees 6",
         "description": "Mickey's first major league grand slam. Mickey crushed it into the left-centerfield upper deck. He had hit tape-measure homers into the upper deck at Briggs Stadium from both sides of the plate in consecutive games.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "029",
@@ -635,7 +635,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 10, Chicago 7",
         "description": "Mickey smashed the first pitch to him in the ninth inning into the lower left-centerfield stands to complete an amazing Yankees' comeback from a 7-0 deficit. It was Mickey's 16th homer of the season and second major league grand slam - his first having come just three days before.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "030",
@@ -657,7 +657,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 7, Red Sox 0",
         "description": "Mickey's first major league two-homer game. This homer, Mickey's first of the game, was a line-drive just inside the right-field foul pole into the lower stands.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "031",
@@ -679,7 +679,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 7, Red Sox 0",
         "description": "Mickey's first major league two-homer game. Mickey's second homer of the game was a scorching line-drive just inside the right-centerfield bleachers.",
-        "quotes&Comments": ["\"I always thought home runs were hit off pitchers' mistakes, but that was not the case this time. We were all amazed that Mantle could hit a pitch that far away from him for that distance.\" - Red Sox Pitcher Ralph Brickner"]
+        "quotesAndComments": ["\"I always thought home runs were hit off pitchers' mistakes, but that was not the case this time. We were all amazed that Mantle could hit a pitch that far away from him for that distance.\" - Red Sox Pitcher Ralph Brickner"]
     },
     {
         "homerunNum" : "032",
@@ -701,7 +701,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 6, Senators 4",
         "description": "Mickey hit a solo home run into the right-field stands to break a 1-1 tie and put the Yankees ahead for good.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "033",
@@ -723,7 +723,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 7, Indians 1",
         "description": "Mickey slammed his 20th home run of the season over the left-field fence in the fifth inning to give the Yankees a 5-0 lead. He did it before 73,609 fans - the biggest crowd of the season. In the ninth inning Mickey hurt his knee while sliding into second to break-up a double-play. It was just one of many nagging injuries Mickey sustained over the course of his career. It didn't keep him out of the lineup but the toll of all of those injuries added up over the course of his career.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "034",
@@ -745,7 +745,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 12, Tigers 3",
         "description": "The Yankees won their sixth straight game. Mickey hit two doubles and a homer - an opposite field shot to right-field that was still rising when it hit the roof of the football press box and bounced all the way back to second base. It missed going out of the park by about a foot. Yankees' outfielder Cliff Mapes, who saw Mickey's epic 656-foot home run hit in an exhibition game at USC on March 26, 1951, said he thought this ball was hit as hard as Mickey's monster USC shot.",
-        "quotes&Comments": ["\"It was unbelievably hard hit, like a rifle shot.\" - Tigers' Outfielder Jim Delsing", "\"That was the hardest ball I ever hit.\" - Mickey about this homer (later homers would eclipse this one)","\"It's a good thing he didn't hit it through the box because my wife would've been a widow!\" Tigers' Pitcher Bill Wight"]
+        "quotesAndComments": ["\"It was unbelievably hard hit, like a rifle shot.\" - Tigers' Outfielder Jim Delsing", "\"That was the hardest ball I ever hit.\" - Mickey about this homer (later homers would eclipse this one)","\"It's a good thing he didn't hit it through the box because my wife would've been a widow!\" Tigers' Pitcher Bill Wight"]
     },
     {
         "homerunNum" : "035",
@@ -767,7 +767,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 8, Red Sox 6",
         "description": "Until this day Mickey batted only .180 with two rbi at Fenway Park. In this doubleheader sweep over Boston Mickey hit a homer, a triple, two doubles and a single, scored three runs and drove in six. Mickey also threw out Red Sox outfielder Dom DiMaggio, who rounded first base too far on a single to Mickey in center. Mickey used his arm to throw behind DiMaggio and catch him as he slid back into first.",
-        "quotes&Comments": ["\"Until today I thought this was going to be a jinx park. But I believe I got as many hits today as I had in all my previous games here. I'm sure that I'm going to like it around here now.\" - Mickey after breaking his Fenway Park \"jinx\""]
+        "quotesAndComments": ["\"Until today I thought this was going to be a jinx park. But I believe I got as many hits today as I had in all my previous games here. I'm sure that I'm going to like it around here now.\" - Mickey after breaking his Fenway Park \"jinx\""]
     },
     {
         "homerunNum" : "036",
@@ -789,7 +789,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 5, A's 2",
         "description": "The Yankees clinched their fourth straight league championship by winning this game in Philadelphia. Mickey hits his 23rd homer of the season off Rookie of the Year Harry Byrd.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "037",
@@ -811,7 +811,7 @@
         "stolenBases": "1",
         "finalScore": "Yankees 7, Senators 3",
         "description": "Mickey's first homer of the 1953 season was a real doozy. Perhaps Mickey's most famous home run, it coined the term \"tape-measure home run.\" Mickey laid into a medium high fastball thrown right down the middle and got it all. The ball rocketed out of the park high above the 391-foot sign in left-centerfield. It was still rising when it hit the 60-foot high National Beer sign atop the football scoreboard that sat above the last row of the bleachers. Undeterred, it carried out of Griffith Stadium, crossed 5th St. and finally landed in the backyard of 434 Oakdale St., several houses away. Yankees' PR Director Arthur \"Red\" Patterson raced from the press box to the place outside the park where the ball had been recovered by 10-year old Donald Dunleavy. Dunleavy showed him where the ball landed. Red measured the distance: 565 feet - the longest home run ever measured! The ball itself was lopsided from the blow - Mickey had literally \"knocked the cover off the ball.\" Contrary to popular myth, Patterson calculated the distance by using the Griffith Stadium dimensions and then pacing off the remaining distance. Nevertheless, the term \"tape-measure\" stuck and remains popular today.",
-        "quotes&Comments": ["\"I just wouldn't have believed a ball could be hit that hard. I've never seen anything like it.\" - Senators' Manager Bucky Harris","\"I shall never forget it as long as I live!\" - Yankees' Rookie Outfielder Bill Renna", "\"Nobody ever hit a ball that hard here before.\" - Senators' Owner Clark Griffith"]
+        "quotesAndComments": ["\"I just wouldn't have believed a ball could be hit that hard. I've never seen anything like it.\" - Senators' Manager Bucky Harris","\"I shall never forget it as long as I live!\" - Yankees' Rookie Outfielder Bill Renna", "\"Nobody ever hit a ball that hard here before.\" - Senators' Owner Clark Griffith"]
     },
     {
         "homerunNum" : "038",
@@ -833,7 +833,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 6, Red Sox 3",
         "description": "Mickey pounded a shot into the right-field bleachers with two out in the bottom of the ninth to win the game.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "039",
@@ -855,7 +855,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 7, Browns 6",
         "description": "Mickey walloped another tape-measure home run in a10-inning game that featured a wild and vicious brawl between the Yankees and the Browns. Mickey's homer in the third inning carried out of the park in left-field, bounced off a second-floor porch 15-20 feet high on a house across the street from the park, and landed in the yard of another house on Sullivan Ave. Red Patterson measured this ball too. It was reported as 494 feet, but that was the distance to the base of the house it hit. Given it's height - over 15 feet when it hit the porch - it would have gone well over 500 feet. Mickey's homer gave the Yankees and 6-0 lead, but they couldn't hold it and the Browns tied it 6-6. In the top of the 10th Gil McDougal, scoring from second on an infield out, collided with catcher Clint Scrap Iron Courtney, knocking the ball loose to score the game-winning run. In the bottom of the tenth Courtney hit a long single and deliberately tried to stretch it to a double so he could spike shortstop Phil Rizzuto. Yankees' players came to Rizzuto's defense, the benches emptied and a wild fight ensued. When order was restored Browns' fans threw bottles at left-fielder Gene Woodling, almost causing a forfeit. After the game the Yankees were escorted out, armed with bats for protection.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "040",
@@ -877,7 +877,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 6, White Sox 1",
         "description": "With teammate and close friend Whitey Ford pitching, Mickey homered to left-centerfield to break a scoreless tie. A fan touched the ball before it could clear the fence and was ruled a home run. The White Sox argued that it should have been ruled a ground rule double instead of a home run. It was Mickey's first homer when Whitey was pitching.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "041",
@@ -899,7 +899,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 6, Red Sox 0",
         "description": "Mickey catapulted a high, long home run that bounced off a light tower above the netting in left-field.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "042",
@@ -921,7 +921,7 @@
         "stolenBases": "-",
         "finalScore": "Red Sox 14, Yankees 10",
         "description": "Mickey belted a home run over 400 feet into the right-field bleachers.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "043",
@@ -943,7 +943,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 9, White Sox 5",
         "description": "Mickey hit a 420-foot homer into the Yankees' bullpen to stake them to a 5-0 lead. The White Sox tied the game but the Yankees, aided by a lead-off single by Mickey , scored four runs in the tenth inning to get the win.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "044",
@@ -965,7 +965,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 5, Browns 0",
         "description": "Mickey homered into the right-centerfield seats and extended his hitting streak to 10 games.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "045",
@@ -987,7 +987,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 6, Tigers 3",
         "description": "Mickey launched a high drive onto the roof in right-centerfield, extending his hitting streak to 16 games.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "046",
@@ -1009,7 +1009,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 5, Browns 0",
         "description": "Mickey homered to left-field in the first game of a doubleheader that the Yankees would sweep from the Browns, with shutouts in both games.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "047",
@@ -1031,7 +1031,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 6, Tigers 3",
         "description": "Mickey hit an opposite field homer into the Yankees' bullpen in right-field in the first game of a doubleheader against the Tigers. In the two games of the doubleheader Mickey hit for the cycle with a single, double, triple and homer.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "048",
@@ -1053,7 +1053,7 @@
         "stolenBases": "-",
         "finalScore": "White Sox 11, Yankees 3",
         "description": "Mickey hit a solo homer deep into the right-field seats but the Yankees lost 11-3. Mickey soon injured his thigh muscle, which caused him to miss six games.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "049",
@@ -1075,7 +1075,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 10, A's 5",
         "description": "In the sixth-inning of the first game of a twi-night doubleheader, Mickey was brought in to pinch-hit for centerfielder Irv Noren after Fanovich walked the bases loaded. (Noren had replaced Mickey due to his thigh injury.) Mickey stepped into the first pitch and crushed a tremendous drive that cleared the upper deck in left-centerfield by at least 25 feet. The ball crossed the street outside the park and was never seen again. It was Mickey's only career pinch-hit grand slam. The Yankees went on to sweep the doubleheader, although Mickey rested his thigh and didn't play in the nightcap. The day before this doubleheader Mickey was named as a starter for the American League All-Star team for the first time.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "050",
@@ -1097,7 +1097,7 @@
         "stolenBases": "-",
         "finalScore": "Tigers 5, Yankees 3",
         "description": "Mickey hit home runs fin both games of a doubleheader, one from each side of the plate. In the first game Mickey homered right-handed deep into the second deck in left-centerfield.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "051",
@@ -1119,7 +1119,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 14, Tigers 4",
         "description": "Mickey hit home runs in both games of a doubleheader, one from each side of the plate. In the second game, Mickey, batting left-handed, powered a homer onto the roof in right-field for the second time that season.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "052",
@@ -1141,7 +1141,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 6, White Sox 1",
         "description": "Mickey hit a low line-drive to left-centerfield that got by Minnie Minoso. Mickey used his blinding speed to race around the bases for an inside-the-park homer to lead the Yankees to a 6-1 win over the White Sox.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "053",
@@ -1163,7 +1163,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 3, White Sox 2",
         "description": "Mickey drove a home run into the right-field seats to give the Yankees a 3-1 lead. They held on to win 3-2.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "054",
@@ -1185,7 +1185,7 @@
         "stolenBases": "-",
         "finalScore": "Red Sox 7, Yankees 4",
         "description": "The Yankees split a doubleheader with the Red Sox in Boston after a Boston fanatic sent Mickey a letter containing a death threat. Despite the threat Mickey played in both games. He crushed a long home run over the \"Green Monster\" in left-field to spoil the shutout in the loss.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "055",
@@ -1207,7 +1207,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 9, White Sox 3",
         "description": "Mickey pounded a two-run homer deep to left-field as part of a seven-run rally in the fifth-inning. The next day's paper featured a photo of Mickey blowing a giant bubble with his bubblegum out in centerfield. Manager Casey Stengel wasn't happy, calling Mickey's conduct \"unprofessional.\" Mickey apologized and promised he wouldn't do it again.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "056",
@@ -1229,7 +1229,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 13, Tigers 4",
         "description": "Mickey launched one of the longest homers in Yankee Stadium history. It slammed into a seat in the upper deck 80 feet above the field and 425 feet from home plate, and rebounded onto the playing field. It helped the Yankees pound Detroit 13-4.",
-        "quotes&Comments": ["\"I've never seen a ball hit that hard!\" - Bill Dickey, Yankees' Hall of Fame Catcher and Coach, moments after saying Babe Ruth and Jimmy Foxx hit balls harder than Mickey"]
+        "quotesAndComments": ["\"I've never seen a ball hit that hard!\" - Bill Dickey, Yankees' Hall of Fame Catcher and Coach, moments after saying Babe Ruth and Jimmy Foxx hit balls harder than Mickey"]
     },
     {
         "homerunNum" : "057",
@@ -1251,7 +1251,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 10, Red Sox 8",
         "description": "The Yankees had already clinched the American League title. Mickey's first-inning homer topped the Yankees' three-run first inning.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "058",
@@ -1273,7 +1273,7 @@
         "stolenBases": "0",
         "finalScore": "Yankees 5, Red Sox 0",
         "description": "Mickey got off to a slow start in 1954 mainly due to off-season knee surgery and rehab. The first surgery in November 1953 was to remove torn cartilage from his right knee - the same knee he'd injured in the 1951 World Series. Mickey wasn't fully dedicated to his rehabilitation - he later said he had been \"lazy and sloppy\" about his program - and re-injured himself in a basketball game. He had a second surgery just before spring training to remove a fluid-filled cyst from behind his knee, which prevented him from participating in most of spring training. His bad knee particularly hampered his left-handed batting - he couldn't step into pitches properly because his right knee would buckle - and in some instances rode the bench against right-handed pitchers. Mickey's first homer of the 1954 season come in the second game of a \"Patriot's Day\" morning/afternoon doubleheader in Boston where the Red Sox won the first game 2-1. In that game Mickey struck out four times, the last time on three pitches with the bases loaded in the ninth inning. In the second game Mickey hit a solo shot for his first homer of the 1954 season.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "059",
@@ -1295,7 +1295,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 5, Red Sox 1",
         "description": "Mickey hit a solid solo home run into the right-field bleachers at Yankee Stadium.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "060",
@@ -1317,7 +1317,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 2, Athletics 0",
         "description": "Mickey rocketed a towering home run high over the 402-foot sign in left-field that came down past the double row of box seats.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "061",
@@ -1339,7 +1339,7 @@
         "stolenBases": "-",
         "finalScore": "Red Sox 6, Yankees 1",
         "description": "Mickey struck out three straight times before coming to the plate with a runner on and the Yankees down 6-1. This time he crushed a drive that flew over the auxiliary scoreboard in right field, landing in the right field bleachers.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "062",
@@ -1361,7 +1361,7 @@
         "stolenBases": "1",
         "finalScore": "Yankees 7, Red Sox 0",
         "description": "Mickey obliterated his early season slump by going 4-for-5 with 4 rbi, a stolen base, a triple and a home run. The Mick used all of his offensive weapons in this game: his blazing speed to beat out a grounder to first for an rbi single in the third, his power to crush a two-run homer into the right-field bleachers in the sixth, and both in the seventh when he cracked an opposite-field rbi triple - his near-home run bounced off the top of the railing in left-field. It was early enough in the season for him to raise his average 37 points in this one game, taking his average above .250. He also drove in ten runs in this three-game series with Boston, more than doubling his season total from 7 to 17. By the end of May he was batting .311, going 21-for-45 - a .467 average! - for the month of May.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "063",
@@ -1383,7 +1383,7 @@
         "stolenBases": "-",
         "finalScore": "Red Sox 10, Yankees 9",
         "description": "Mickey tied the game in the third by clouting a long three-run home run into the left-field seats. He also hit an rbi single but struck out to end the game.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "064",
@@ -1405,7 +1405,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 9, Senators 3",
         "description": "Mickey beat out two infield hits for singles, walked and homered over the right-field wall in the eighth inning. He also struck out twice.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "065",
@@ -1427,7 +1427,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 10, Red Sox 2",
         "description": "Mickey rocketed a homer into the netting above the \"Green Monster\" in left-field. He had a ten-game hitting streak and brought his average above .300.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "066",
@@ -1449,7 +1449,7 @@
         "stolenBases": "-",
         "finalScore": "Red Sox 3, Yankees 1",
         "description": "Mickey homered into the right-field bullpen to tie the game but the Yankees couldn't score again and lost 3-1. His hitting streak was extended to 11 games.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "067",
@@ -1471,7 +1471,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 5, Orioles 2",
         "description": "Mickey's first home run against the Orioles - formerly the St. Louis Browns - came off Don Larsen, who later became Mickey's teammate and pitched the only perfect game in World Series history. Mickey punched his homer into the right-field stands.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "068",
@@ -1493,7 +1493,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 9, Tigers 5",
         "description": "Mickey went 2-for-5 with a homer, two runs scored and two rbi and the Yankees beat the Tigers 9-5 in NY.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "069",
@@ -1515,7 +1515,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 16, White Sox 6",
         "description": "Mickey reached base five times, scored four times and drove in two runs with a two-run homer.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "070",
@@ -1537,7 +1537,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 11, Indians 9",
         "description": "Mickey made a bad throw early in the game to help the Indians take a 2-1 lead. However, his two hits - an rbi double and a solo home run - gave them a 7-5 lead and the Yankees went on to win 11-5.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "071",
@@ -1559,7 +1559,7 @@
         "stolenBases": "-",
         "finalScore": "Red Sox 6, Yankees 1",
         "description": "Mickey gave the Yankees their only run with an opposite-field homer launched into the net above the \"Green Monster\" in left.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "072",
@@ -1581,7 +1581,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 8, Red Sox 7",
         "description": "Mickey crushed a two-run homer, drove in three runs and made a spectacular catch to help the Yankees to a one-run victory over the Red Sox, 8-7.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "073",
@@ -1603,7 +1603,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 3, Senators 2",
         "description": "Mickey smashed a 440-foot opposite field homer into the left-field seats and drove in all three Yankee runs to carry them to a 3-2 win over the Nats. He had a 12-game hitting streak and raised his average to .320.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "074",
@@ -1625,7 +1625,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 7, Athletics 4",
         "description": "Mickey hit a back-to-back homer after Joe Collins to help the Yankees sweep a doubleheader from the A's in Philadelphia. It was their first doubleheader sweep of the season after splitting their first ten twinbills.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "075",
@@ -1647,7 +1647,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 17, Red Sox 9",
         "description": "Mickey hit his twelfth left-handed homer in a row, going 3-for-4 with four runs scored and two rbi.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "076",
@@ -1669,7 +1669,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 8, Tigers 0",
         "description": "Mickey broke his streak of consecutive left-handed homers with a high drive that landed deep in the lower deck seats in left-field, his first righty homer since May 23rd.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "077",
@@ -1691,7 +1691,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 4, White Sox 3",
         "description": "Mickey goes 4-for-9, with a 10th inning game winning home run, 4 rbi and 3 runs scored in a doubleheader sweep of the White Sox in NY. The Mick even played shortstop for the final two innings before his walk-off home run.Manager Casey Stengel used four pinch-hitters in the eighth inning - he got a homer and a walk from them - giving Mickey the chance to score Bill \"Moose\" Skowron from second with a two-out, game-tying single. Stengel was then forced to shuffle his players in the field, shifting Irv Noren from right to center, moving Mickey to shortstop (a position that had challenged him greatly early in his career) and putting Gil McDougal in at second for the first time in his career. Fortunately Mickey didn't get a single defensive chance in his two innings at short.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "078",
@@ -1713,7 +1713,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 7, White Sox 5",
         "description": "Mickey belted another game-winning homer in the ninth-inning to give the Yankees a 7-5 win over the White Sox. A rain delay stopped play for over an hour and when play resumed Mickey smashed a three-run homer into the lower left-centerfield seats.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "079",
@@ -1735,7 +1735,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 5, Indians 2",
         "description": "Another two-homer game for The Mick. This first home run in the fourth inning off Hall of Fame pitcher Early Wynn staked the Yankees to a 1-0 lead. Mickey's two solo home runs against the first-place Indians help keep the Yankees in the pennant race.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "080",
@@ -1757,7 +1757,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 5, Indians 2",
         "description": "Mickey's second home run of the game, a tremendous 500-foot shot into the upper deck in right field, was Mickey's response to a taunt from Joe Collins. Mickey was getting a lot of press about his long home runs ever since his monster shot at Griffith Stadium in Washington in April 1953. Collins was batting second in front of Mickey. When Collins batted in the eighth inning he drove a Ray Narelski 475-feet into the upper deck in right field. As he crossed the plate he said to Mickey, \"Go chase that!\"On the first pitch from Narelski Mickey walloped the ball deep to right-field in the same direction as Collins' homer. But Mickey's shot went about twenty-five feet further toward center and several rows deeper into the same upper deck seats as Joe's homer went. Mickey's homer went nearly five-hundred feet! When Mickey got back to the dugout he headed to the water fountain by Collins. As he took a sip he asked, \"What did you say, Joe?\" Collins replied, \"Aw, go sh#* in your hat!\"",
-        "quotes&Comments": ["\"Go chase that!\" - Joe Collins to Mickey after pounding a 475-foot homer into the upper deck. \"What did you say, Joe?\" - Mickey to Joe Collins after his back-to-back 500-foot homer on the first pitch following Collins' homer. \"Aw, go sh#* in your hat!\" - Collins to Mickey."]
+        "quotesAndComments": ["\"Go chase that!\" - Joe Collins to Mickey after pounding a 475-foot homer into the upper deck. \"What did you say, Joe?\" - Mickey to Joe Collins after his back-to-back 500-foot homer on the first pitch following Collins' homer. \"Aw, go sh#* in your hat!\" - Collins to Mickey."]
     },
     {
         "homerunNum" : "081",
@@ -1779,7 +1779,7 @@
         "stolenBases": "-",
         "finalScore": "Tigers 10, Yankees 8",
         "description": "Mickey's two-run homer helped the Yankees come back to tie the game at eight, but it wasn't enough and the Yankees lost 10-8. Mickey just-missed clouting a tremendous home run late in the game.The ball shot over the right-field roof but hooked foul just before reaching the foul pole. It would have been his second homer of the game.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "082",
@@ -1801,7 +1801,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 5, Athletics 4",
         "description": "Mickey's solo home run in the eighth inning gave the Yankees a 5-4 victory over the A's.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "083",
@@ -1823,7 +1823,7 @@
         "stolenBases": "-",
         "finalScore": "Yankees 14, Red Sox 9",
         "description": "Mickey reached base five times with three walks. He scored three runs and drove in two. Mickey put to rest his early concerns about his performance against Boston and became a Red Sox killer: this solo home run was his eleventh of the season against them. He went 32-for-85, a .376 batting average, scored 26 runs and drove in 28 runs.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     },
     {
         "homerunNum" : "084",
@@ -1845,6 +1845,6 @@
         "stolenBases": "-",
         "finalScore": "Yankees 3, Indians 2",
         "description": "Mickey had gone into a late season slump so Casey Stengel decided to bat him in the leadoff spot against right-handed pitchers. Leading off the sixth inning Mickey absolutely crushed Bob Lemon's first pitch deep into the upper deck in right-field, about 100 feet above the 344-foot sign at field level. The Yankees victory keeps them in the hunt for the pennant but ten days later they lost a doubleheader to Cleveland and fall out of the race. The Indians end the season with a record 111 wins, with the Yankees in second place. Mickey ended the season right at .300, with 102 rbi, 129 runs scored and 27 homers. His slow start and late season slump may have cost him the Triple Crown.",
-        "quotes&Comments": []
+        "quotesAndComments": []
     }
 ]

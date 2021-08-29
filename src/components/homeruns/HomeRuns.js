@@ -1,38 +1,39 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import HomeRunTable from './HomeRunTable'
-import homeRunJson from '../../assets/json/homeRuns.json'
+import homeRunsJson from '../../assets/json/homeRuns.json'
 
 export default function HomeRuns() {
 
-    const [searchInput, setSearchInput] = useState([]);
+    const [searchInput, setSearchInput] = useState("");
 
     function handleSearch(e) {
         let keyword = e.target.value
         setSearchInput(keyword);
-        console.log(e.target.value)
     }
 
-    const items = homeRunJson.filter((data)=> {
+    let items = homeRunsJson.filter((homeRun)=> {
+        let search = searchInput.toLowerCase()
         if (searchInput.length === 0){
-            return data
-    } else if (data.homerunNum.toLowerCase().includes(searchInput.toLowerCase()) || data.place.toLowerCase().includes(searchInput.toLowerCase()) || data.date.toLowerCase().includes(searchInput.toLowerCase()) ){
-        return data
-    }
-    }).map((data, i) => { 
-        return (
-                <HomeRunTable data={data} key={`data${i}`}/>
-        ) 
+            return true
+        } else if (            
+            homeRun.homerunNum.includes(search) || 
+            homeRun.place.toLowerCase().includes(search) || 
+            homeRun.date.includes(search) )
+        {
+            return true
+        }
     })
+
     return (
         <>
             <H1>Home Runs</H1>
             <Div>
-                <H3>Search based on number of home run, date or place:</H3>
+                <H3>Search based on Number of Home Run, Date or Place:</H3>
                 <Input type="text" placeholder="Search Here" onChange={(e) => handleSearch(e)} /> 
             </Div>
             <div>
-                {items}
+                {items.map((data, i) => <HomeRunTable data={data} key={`data${i}`}/> )}
             </div>
         </>
     )
@@ -43,7 +44,7 @@ const Div = styled.div`
     justify-content: center;
     align-items: center;
     border: 2px solid orange;
-    margin: 2%;
+    margin: 3%;
     border-radius: 10px;
     @media (max-width: 800px) {
         display: block;
@@ -63,6 +64,9 @@ const H3 = styled.h3`
     font-size: 1.3rem;
     color: white;
     margin: 30px;
+    @media (max-width: 800px) {
+        font-size: 1.2rem;
+    }
 `
 const Input = styled.input`
     font-size: 1.1rem;

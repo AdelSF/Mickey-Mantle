@@ -1,80 +1,82 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
+// import BaseballImg from '../../assets/design-photos/baseball-player.png'
 
-export default function HomeRun({data: {homerunNum, date, place, opponent, pitcher, rightOrLeftHand, position, placeInBattingOrder, distance, inning, menOnBase, atBats, hits, walks, runs, rbi, stolenBases, finalScore, description, Comments}}) {
+export default function HomeRun({data: {homerunNum, date, place, opponent, pitcher, rightOrLeftHand, position, placeInBattingOrder, distance, inning, menOnBase, atBats, hits, walks, runs, rbi, stolenBases, finalScore, description, quotesAndComments}}) {
     return (
         <HomeR>
-            <Table>
-                <tr>
-                    <Th>Home Run Number:</Th>
-                    <Th>Date:</Th>
-                    <Th>Place:</Th>
-                    <Th>Opponent:</Th>
-                    <Th>Pitcher:</Th>
-                    <Th>Hit R-handed or L-handed:</Th>
-                    <Th>Place In Batting Order:</Th>
-                    <Th>Position:</Th>
-                    <Th>Distance:</Th>
-                </tr>
-                <tr>
-                    <Td>{homerunNum}</Td>
-                    <Td>{date}</Td>
-                    <Td>{place}</Td>
-                    <Td>{opponent}</Td>
-                    <Td>{pitcher}</Td>
-                    <Td>{rightOrLeftHand}</Td>
-                    <Td>{placeInBattingOrder}</Td>
-                    <Td>{position}</Td>
-                    <Td>{distance}</Td>
-                </tr>
-                <tr>
-                    <Th>Inning:</Th>
-                    <Th>Men on Base:</Th>
-                    <Th>At-Bats:</Th>
-                    <Th>Hits:</Th>
-                    <Th>Walks:</Th>
-                    <Th>Runs:</Th>
-                    <Th>RBI:</Th>
-                    <Th>Stolen Bases:</Th>
-                    <Th>Final Score:</Th>
-                </tr>
-                <tr>
-                    <Td>{inning}</Td>
-                    <Td>{menOnBase}</Td>
-                    <Td>{atBats}</Td>
-                    <Td>{hits}</Td>
-                    <Td>{walks}</Td>
-                    <Td>{runs}</Td>
-                    <Td>{rbi}</Td>
-                    <Td>{stolenBases}</Td>
-                    <Td>{finalScore}</Td>
-                </tr>
-                </Table>
+                <UpperTableSetion>
+                    <P1>Home Run Number: <Span>{homerunNum}</Span></P1>
+                    <P1>Date: <Span>{date}</Span></P1>
+                    <P1>Place: <Span>{place}</Span></P1>
+                    <P1>Opponent: <Span>{opponent}</Span></P1>
+                    <P1>Pitcher: <Span>{pitcher}</Span></P1>
+                    <P1>Hit R-handed or L-handed: <Span>{rightOrLeftHand}</Span></P1>
+                    <P1>Place In Batting Order: <Span>{placeInBattingOrder}</Span></P1>
+                    <P1>Position: <Span>{position}</Span></P1>
+                    <P1>Distance: <Span>{distance}</Span></P1>
+                    <P1>Inning: <Span>{inning}</Span></P1>
+                    <P1>Men on Base: <Span>{menOnBase}</Span></P1>
+                    <P1>At-Bats: <Span>{atBats}</Span></P1>
+                    <P1>Hits: <Span>{hits}</Span></P1>
+                    <P1>Walks: <Span>{walks}</Span></P1>
+                    <P1>Runs: <Span>{runs}</Span></P1>
+                    <P1>RBI: <Span>{rbi}</Span></P1>
+                    <P1>Stolen Bases: <Span>{stolenBases}</Span></P1>
+                    <P1>Final Score: <Span>{finalScore}</Span></P1>
+                </UpperTableSetion>
+                <div>
+                    <Description><Span>Description: </Span>{description}</Description>
+                    <Comments><Span>Qutes & Comments: <br></br></Span>{quotesAndComments}</Comments>
+                </div>
         </HomeR>
     )
 }
 
 
 const HomeR = styled.div`
-    color: white;
-    display: flex;
-    flex-direction: row;
-    padding: 30px;
-`
-const Table = styled.table`
-    display: block;
+    background-image: url(${"../../src/assets/design-photos/stadium-lowLight-min.jpg"});
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 1px solid white;
-    margin: 0 auto;
+    margin: 3%;
     border-radius: 10px;
+    color: white;
+    padding: 30px;
+    @media (max-width: 900px) {
+        background-image: url(${"../../src/assets/design-photos/lowLight-2-min.jpg"});
+    }
 `
-const Th = styled.th`
-    border: 3px solid white;
-    text-align: center;
-    margin: 10px;
-    padding: 10px 20px;
-    `
-const Td = styled.td`
-    padding: 50px;
-    text-align: center;
+const P1 = styled.p`
+    display: inline-flex;
+    font-size: 1.1rem;
+    width: 350px;
+    color: lightgray;
     border: 1px solid orange;
+    padding: 20px;
+    margin: 0;
+`
+const UpperTableSetion = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+`
+const Description = styled.p`
+    display: block;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    `
+const Span = styled.span`
+    font-weight: 800;
+    font-style: italic;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    color: white;
+    text-shadow: 0px 0px 15px black;
+`
+const Comments = styled.p`
+    display: block;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-top: 3px solid gray;
 `
