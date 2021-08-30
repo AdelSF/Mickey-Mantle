@@ -90,6 +90,9 @@ const H1 = styled.h1`
         display: flex;
         justify-content: center;
     }
+    @media (max-width: 600px) {
+        font-size: 5rem;
+    }
     `
 const H2 = styled.h1`
     font-size: 7rem;
@@ -100,6 +103,9 @@ const H2 = styled.h1`
         margin: 0;
         display: flex;
         justify-content: center;
+    }
+    @media (max-width: 600px) {
+        font-size: 3rem;
     }
     `
 const Section2 = styled.section`
@@ -119,7 +125,6 @@ const TheAmericanDreamImg1 = styled.img`
         width: 90%;
         border: 2px solid orange;
     }
-
 `
 const TheAmericanDreamImg2 = styled.img`
     margin: 30px auto;
@@ -141,7 +146,11 @@ const Article = styled.article`
     color: white;
     margin: 5%;
     font-size: 1.4rem;
+    line-height: 1.4rem;
     text-align: justify;
+    @media (max-width: 600px) {
+        font-size: 1.2rem;
+    }
 `
 const BottomSectionText = styled.h3`
     display: flex;
@@ -159,6 +168,9 @@ const BottomSectionText = styled.h3`
         margin: 4% 2%;
         font-size: .8rem;
     }
+    @media (max-width: 600px) {
+        font-size: 0.6rem;
+    }
 `
 const Section3 = styled.section`
     color: white;
@@ -172,9 +184,12 @@ const Section3 = styled.section`
 const H3 = styled.h3`
     color: white;
     margin: 6% 5% 0 5%;
-    text-align: justify;
-    text-shadow: 3px 3px black;
-`
+    text-shadow: 3px 3px 10px black;
+    @media (max-width: 600px) {
+        font-size: 1.2rem;
+        margin: 6% 5% 2% 5%;
+    }
+    `
 const H4 = styled.h1`
     display: flex;
     justify-content: center;
@@ -191,4 +206,7 @@ const Article2 = styled.article`
     margin: 1% 5%;
     font-size: 1.4rem;
     text-align: justify;
+    @media (max-width: 600px) {
+        font-size: 1.2rem;
+    }
 `

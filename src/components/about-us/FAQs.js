@@ -36,6 +36,9 @@ const H2 = styled.h2`
     color: white;
     text-shadow: 1px 1px red;
     padding: 10px;
+    @media (max-width: 500px) {
+        font-size: 1.2rem;
+    }
 `
 const P = styled.p`
     font-size: 1.1rem;
@@ -45,4 +48,6 @@ const P = styled.p`
 `
 const Img = styled.img`
     margin: 2%;
+    width: 150px;
+    height: 150px;
 `
