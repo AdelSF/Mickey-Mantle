@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import videos from '../../assets/json/videos.json'
-import cards from '../../assets/json/cards.json'
+import videos from '../../../assets/json/videos.json'
+import cards from '../../../assets/json/cards.json'
 import Video from './Video'
 import Card from './Card'
 

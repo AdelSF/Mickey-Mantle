@@ -20,7 +20,7 @@ export default function Header() {
 
     return (
         <Menu>
-            <Logo src="src/assets/mickey-photos/logo.jpeg" alt="logo" />
+            <Logo src="assets/mickey-photos/logo.jpeg" alt="logo" />
             <Items displayStatus={hamContent} >
                 <Item to='/' >HOME</Item>
                 <Item to='/homeruns' >HOME RUNS</Item>

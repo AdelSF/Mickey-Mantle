@@ -35,7 +35,7 @@ export default function HomeRun({data: {homerunNum, date, place, opponent, pitch
 
 
 const HomeR = styled.div`
-    background-image: url(${"../../src/assets/design-photos/stadium-lowLight-min.jpg"});
+    background-image: url(${"../../../assets/design-photos/stadium-lowLight-min.jpg"});
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid white;
@@ -44,7 +44,7 @@ const HomeR = styled.div`
     color: white;
     padding: 30px;
     @media (max-width: 900px) {
-        background-image: url(${"../../src/assets/design-photos/lowLight-2-min.jpg"});
+        background-image: url(${"../../../assets/design-photos/lowLight-2-min.jpg"});
     }
 `
 const P1 = styled.p`

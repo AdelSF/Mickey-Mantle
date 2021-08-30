@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import HomeRunTable from './HomeRunTable'
-import homeRunsJson from '../../assets/json/homeRuns.json'
+import homeRunsJson from '../../../assets/json/homeRuns.json'
 
 export default function HomeRuns() {
 

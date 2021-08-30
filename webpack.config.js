@@ -6,9 +6,9 @@ module.exports = (env) => {
     return {
         entry: "./src/index.js",
         output: {
+            publicPath: '/',
             path: DIST_DIR,
             filename: 'bundle.js',
-            publicPath: '/'
         },
 
         module: {
@@ -32,7 +32,8 @@ module.exports = (env) => {
                             }
                         ]
                     }
-                }
+                },
+
             ]
         },
     
@@ -47,6 +48,6 @@ module.exports = (env) => {
             hot: true,
             historyApiFallback: true,
         },
-        mode: env.production ? 'production' : 'development'
+        mode: env === 'production' ? 'production' : 'development'
     }
 }

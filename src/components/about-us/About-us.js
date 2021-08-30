@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import faqs from '../../assets/json/FAQs.json'
-import longestHits from '../../assets/json/longest-hit.json'
+import faqs from '../../../assets/json/FAQs.json'
+import longestHits from '../../../assets/json/longest-hit.json'
 import LongestHit from './LongestHit'
 import FAQs from './FAQs'
 
