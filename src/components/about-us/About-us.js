@@ -53,6 +53,9 @@ const H1 = styled.h1`
     display: flex;
     flex-direction: row;
     justify-content: center;
+    @media (max-width: 500px) {
+        font-size: 1.7rem;
+    }
 `
 const H2 = styled.h2`
     color: orange;
@@ -61,6 +64,9 @@ const H2 = styled.h2`
     display: flex;
     flex-direction: row;
     justify-content: center;
+    @media (max-width: 500px) {
+        font-size: 1.7rem;
+    }
 `
 
 const SeeMoreFaqsBtn = styled.button`
