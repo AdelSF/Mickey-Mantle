@@ -1,6 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const path = require('path');
-const DIST_DIR = path.resolve(__dirname, "../dist");
+const DIST_DIR = path.resolve(__dirname, "./dist");
 
 module.exports = (env) => {
     return {
@@ -10,7 +10,7 @@ module.exports = (env) => {
             filename: 'bundle.js',
             publicPath: '/'
         },
-    
+
         module: {
             rules: [
                 {
