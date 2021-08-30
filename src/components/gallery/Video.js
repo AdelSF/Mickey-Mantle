@@ -8,7 +8,7 @@ export default function Video({video: {title, description, src}}) {
                 <Div>
                    <H2>{title}</H2>
                    <P>{description}</P>
-                   <Iframe src={src} frameBorder="0" width="425" height="350" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></Iframe>
+                   <Iframe src={src} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></Iframe>
                 </Div>
             </Videos>
     )
@@ -16,13 +16,19 @@ export default function Video({video: {title, description, src}}) {
 
 const Videos = styled.div`
     display: flex;
-    width: 450px;
-    height: 610px;
-    `
+    justify-content: center;
+    width: 430px;
+    height: 430px;
+    @media (max-width: 500px) {
+        width: 100%;
+        height: 100%;
+    }
+`
 const Div = styled.div`
     border: 2px solid orange;
     border-radius: 10px;
     margin: 10px;
+    padding: 10px;
 `
 const H2 = styled.h2`
     color: white;
@@ -36,5 +42,7 @@ const P = styled.p`
     padding: 0 20px;
 `
 const Iframe = styled.iframe`
-    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin: 8% auto;
 `

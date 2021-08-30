@@ -38,7 +38,6 @@ export default function Gallery() {
                 {[...Array(videoQty).keys()].map((index) => <Video video={videos[index]} key={`video${index}`}/> )}
             </Videos>
             <SeeMoreVideosBtn onClick={seeMoreVideosOnClick}>See More Videos</SeeMoreVideosBtn>
-
         </>
     )
 }
@@ -50,33 +49,30 @@ const H1 = styled.h1`
     -webkit-text-stroke: 1px white;
     margin: 10% 0 3% 0;
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    @media (max-width: 500px) {
+        font-size: 2rem;
+    }
 `
 const Videos = styled.div`
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
-    @media (max-width: 1300px) {
-        grid-template-columns: 1fr 1fr;
-        justify-items: center;
-    }
-    @media (max-width: 850px) {
-        grid-template-columns: 1fr;
-        justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    @media (max-width: 500px) {
+        justify-content: center;
     }
 `
 const Cards = styled.div`
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
-    @media (max-width: 1300px) {
-        grid-template-columns: 1fr 1fr;
-        justify-items: center;
-    }
-    @media (max-width: 850px) {
-        grid-template-columns: 1fr;
-        justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    @media (max-width: 500px) {
+        width: 100%;
+        justify-content: center;
     }
 `
 

@@ -16,13 +16,19 @@ export default function Card({card: {description, yearAndNumber, title, src}}) {
 
 const Cards = styled.div`
     display: flex;
-    width: 450px;
+    justify-content: center;
+    width: 430px;
     height: 610px;
+    @media (max-width: 500px) {
+        width: 100%;
+        height: 100%;
+    }
 `
 const Div = styled.div`
     border: 2px solid orange;
     border-radius: 10px;
     margin: 10px;
+    width: 100%;
 `
 const H1 = styled.h1`
     display: flex;
@@ -46,8 +52,7 @@ const P = styled.p`
 `
 const Img = styled.img`
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin: 10px auto;
+    margin: 8px auto;
     padding: 5px;
 `
