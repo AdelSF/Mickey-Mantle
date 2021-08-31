@@ -31,7 +31,7 @@ export default function HomeRuns() {
             <H1>Home Runs</H1>
             <Div>
                 <H3>Search based on Number of Home Run, Date or Place:</H3>
-                <Input type="text" placeholder="Search Here" onChange={(e) => handleSearch(e)} /> 
+                <Input type="text" placeholder=" Search Here" onChange={(e) => handleSearch(e)} /> 
             </Div>
             <div>
                 {items.map((data, i) => <HomeRunTable data={data} key={`data${i}`}/> )}
