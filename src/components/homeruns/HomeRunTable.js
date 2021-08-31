@@ -5,7 +5,7 @@ import styled from 'styled-components'
 
 export default function HomeRun({data: {homerunNum, date, place, opponent, pitcher, rightOrLeftHand, position, placeInBattingOrder, distance, inning, menOnBase, atBats, hits, walks, runs, rbi, stolenBases, finalScore, description, quotesAndComments}}) {
     return (
-        <HomeR>
+        <HomeR style={{ backgroundImage: "url('../../../assets/design-photos/stadium-lowLight-min.jpg')"}}>
                 <UpperTableSetion>
                     <P1>Home Run Number: <Span>{homerunNum}</Span></P1>
                     <P1>Date: <Span>{date}</Span></P1>
