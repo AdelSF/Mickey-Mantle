@@ -1,6 +1,10 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import MickyHitsTheBall from '../../../assets/mickey-photos/2.png'
+import TheBallOnTop from '../../../assets/mickey-photos/smoking-ball.jpg'
+import MickeySmiling from '../../../assets/mickey-photos/Micky-1.jpg'
+import TheAmericanDreamImg from '../../../assets/mickey-photos/header.jpeg'
+import FamilyImg from '../../../assets/mickey-photos/mm-family.jpeg'
 
 export default function Home() {
     return (
@@ -10,14 +14,14 @@ export default function Home() {
                 <InnerSection>
                     <H2>Mickey</H2>
                     <H1>Mantle</H1>
-                    <TopImgBall src="assets/mickey-photos/smoking-ball.jpg" alt="The ball on top" />
-                    <TheAmericanDreamImg1 src="assets/mickey-photos/header.jpeg" alt="The American Dream comes to life" /> 
+                    <TopImgBall src="" alt="The ball on top" />
+                    <TheAmericanDreamImg1 src={TheBallOnTop} alt="The American Dream comes to life" /> 
                 </InnerSection>
             </Section1> 
             <Section2>
-                <MickyOnLeftImg src="assets/mickey-photos/Micky-1.jpg" alt="Micky Smiling" />
+                <MickyOnLeftImg src={MickeySmiling} alt="Micky Smiling" />
                 <div>
-                    <TheAmericanDreamImg2 src="assets/mickey-photos/header.jpeg" alt="The American Dream comes to life" /> 
+                    <TheAmericanDreamImg2 src={TheAmericanDreamImg} alt="The American Dream comes to life" /> 
                     <Article>
                         Welcome to our Official Mickey Mantle: The American Dream Comes To Life® Store. Operating since 1988, our first product was the award-winning "videography™" program, Mickey Mantle: The American Dream Comes To Life®. It's the first truly autobiographical documentary ever made. Mickey tells his own stories - from both on and off the field - in his own words, capturing his warmth, charm, humor and charisma. It became a BILLBOARD Magazine National Bestseller for two consecutive years and was broadcast nationwide on Public Television. USA Today, The New York Daily News and The Washington Post/Los Angeles Times Syndicate all called it, "The best baseball program ever made!" (In the photo Mickey and producer/director Lew Rothgeb are at Mickey Mantle's Restaurant in New York announcing the program's release on video.) Mickey said it was, "The best project I ever did!"
                     </Article>
@@ -27,7 +31,7 @@ export default function Home() {
             <Section3>
                 <div>
                     <H4>Short Biography</H4>
-                    <MickeyFamilyImg src="assets/mickey-photos/mm-family.jpeg" alt="Mickey Mantle image with family" /> 
+                    <MickeyFamilyImg src={FamilyImg} alt="Mickey Mantle image with family" /> 
                     
                     <H3>Named after a Hall of Fame Catcher</H3> 
                         <Article2>
