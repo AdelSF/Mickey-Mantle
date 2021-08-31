@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import MickyHitsTheBall from '../../../assets/mickey-photos/2.png'
-import TheBallOnTop from '../../../assets/mickey-photos/smoking-ball.jpg'
+import TheBallFire from '../../../assets/mickey-photos/baseball-fire.jpg'
 import MickeySmiling from '../../../assets/mickey-photos/Micky-1.jpg'
 import TheAmericanDreamImg from '../../../assets/mickey-photos/header.jpeg'
 import FamilyImg from '../../../assets/mickey-photos/mm-family.jpeg'
@@ -14,8 +14,8 @@ export default function Home() {
                 <InnerSection>
                     <H2>Mickey</H2>
                     <H1>Mantle</H1>
-                    <TopImgBall src="" alt="The ball on top" />
-                    <TheAmericanDreamImg1 src={TheBallOnTop} alt="The American Dream comes to life" /> 
+                    <TopImgBall src={TheBallFire} alt="The ball on top" />
+                    <TheAmericanDreamImg1 src={TheAmericanDreamImg} alt="The American Dream comes to life" /> 
                 </InnerSection>
             </Section1> 
             <Section2>
