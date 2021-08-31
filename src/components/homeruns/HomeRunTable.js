@@ -36,7 +36,7 @@ export default function HomeRun({data: {homerunNum, date, place, opponent, pitch
 
 
 const HomeR = styled.div`
-    background-image: url("${BigBaseballImg}");
+    background-image: url(${BigBaseballImg});
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid white;
