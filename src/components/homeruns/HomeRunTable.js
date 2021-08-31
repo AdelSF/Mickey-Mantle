@@ -36,7 +36,7 @@ export default function HomeRun({data: {homerunNum, date, place, opponent, pitch
 
 
 const HomeR = styled.div`
-    background-image: url(${BigBaseballImg});
+    /* background-image: url(${BigBaseballImg}); */
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid white;
@@ -45,7 +45,7 @@ const HomeR = styled.div`
     color: white;
     padding: 30px;
     @media (max-width: 900px) {
-        background-image: url(${SmallBaseballImg});
+        /* background-image: url(${SmallBaseballImg}); */
     }
 `
 const P1 = styled.p`
