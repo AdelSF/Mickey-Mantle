@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <Container>
             <Section1>
-                <TopImgMicky src="assets/mickey-photos/2.png" alt="Micky Hits The Ball" />
+                <TopImgMicky src={"assets/mickey-photos/2.png"} alt="Micky Hits The Ball" />
                 <InnerSection>
                     <H2>Mickey</H2>
                     <H1>Mantle</H1>

@@ -1,7 +1,7 @@
 import React, {useState} from "react"
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import { useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom"
 import logo from '../../../assets/mickey-photos/logo.jpeg'
 
 var menuColor;
