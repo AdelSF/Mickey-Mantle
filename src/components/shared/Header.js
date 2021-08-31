@@ -2,6 +2,7 @@ import React, {useState} from "react"
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { useLocation } from "react-router-dom";
+import logo from '../../../assets/mickey-photos/logo.jpeg'
 
 var menuColor;
 export default function Header() {
@@ -20,7 +21,7 @@ export default function Header() {
 
     return (
         <Menu>
-            <Logo src="../../assets/mickey-photos/logo.jpeg" alt="logo" />
+            <Logo src={logo} alt="logo" />
             <Items displayStatus={hamContent} >
                 <Item to='/' >HOME</Item>
                 <Item to='/homeruns' >HOME RUNS</Item>
