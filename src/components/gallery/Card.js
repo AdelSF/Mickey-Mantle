@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-const url = '../../../assets/cards/'
+const url = 'assets/cards/'
 
 export default function Card({card: {description, yearAndNumber, title, src}}) {
     return (
