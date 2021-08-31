@@ -8,7 +8,7 @@ export default function Card({card: {description, yearAndNumber, title, src}}) {
                 <H1>{yearAndNumber}</H1>
                 <H3>{title}</H3>
                 <P>{description}</P>
-                <Img src={`"../../../assets/cards/"${src}`} />
+                <Img src={{src}} />
             </Div>
         </Cards>
     )
