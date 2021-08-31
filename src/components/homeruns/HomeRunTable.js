@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import BigBaseballImg from '../../../assets/design-photos/stadium-lowlight-min.jpg'
+import img from '../../../assets/design-photos/stadium-lowlight-min.jpg'
 import SmallBaseballImg from '../../../assets/design-photos/lowLight-2-min.jpg'
 
 export default function HomeRun({data: {homerunNum, date, place, opponent, pitcher, rightOrLeftHand, position, placeInBattingOrder, distance, inning, menOnBase, atBats, hits, walks, runs, rbi, stolenBases, finalScore, description, quotesAndComments}}) {
@@ -36,7 +36,7 @@ export default function HomeRun({data: {homerunNum, date, place, opponent, pitch
 
 
 const HomeR = styled.div`
-    background-image: url(${BigBaseballImg});
+    background-image: url(${img});
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid white;
