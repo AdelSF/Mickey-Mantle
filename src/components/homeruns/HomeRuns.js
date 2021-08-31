@@ -20,7 +20,7 @@ export default function HomeRuns() {
         } else if (            
             homeRun.homerunNum.includes(search) || 
             homeRun.place.toLowerCase().includes(search) || 
-            homeRun.date.includes(search) )
+            homeRun.date.includes(search))
         {
             return true
         }

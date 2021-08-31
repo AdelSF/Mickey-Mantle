@@ -8,12 +8,12 @@ import FamilyImg from '../../../assets/mickey-photos/mm-family.jpeg'
 
 export default function Home() {
     return (
-        <Container>
+        <>
             <Section1>
                 <TopImgMicky src={MickyHitsTheBall} alt="Micky Hits The Ball" />
                 <InnerSection>
-                    <H2>Mickey</H2>
-                    <H1>Mantle</H1>
+                    <H2>MICKEY</H2>
+                    <H1>MANTLE</H1>
                     <TopImgBall src={TheBallFire} alt="The ball on top" />
                     <TheAmericanDreamImg1 src={TheAmericanDreamImg} alt="The American Dream comes to life" /> 
                 </InnerSection>
@@ -54,13 +54,10 @@ export default function Home() {
                         </Article2>
                 </div>
             </Section3>
-        </Container>
+        </>
     )
 }
 
-const Container = styled.div`
-    
-`
 const Section1 = styled.section`
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -88,6 +85,7 @@ const TopImgBall = styled.img`
     `
 const H1 = styled.h1`
     font-size: 10rem;
+    font-family: serif;
     -webkit-text-stroke: 2px orange;
     margin: 0px 40px;
     @media (max-width: 1200px) {
@@ -99,17 +97,20 @@ const H1 = styled.h1`
         font-size: 5rem;
     }
     `
-const H2 = styled.h1`
-    font-size: 7rem;
+const H2 = styled.p`
+    float: right;
+    font-size: 6rem;
     color: white;
     margin: 80px 50px 0 0;
     @media (max-width: 1200px) {
+        float: unset;
         font-size: 4rem;
         margin: 0;
         display: flex;
         justify-content: center;
     }
     @media (max-width: 600px) {
+        float: unset;
         font-size: 3rem;
     }
     `
@@ -150,14 +151,11 @@ const MickyOnLeftImg = styled.img`
 const Article = styled.article`
     color: white;
     margin: 5%;
-    font-size: 1.4rem;
-    line-height: 1.4rem;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
     text-align: justify;
-    @media (max-width: 600px) {
-        font-size: 1.2rem;
-    }
 `
-const BottomSectionText = styled.h3`
+const BottomSectionText = styled.p`
     display: flex;
     justify-content: center;
     font-size: 1.5rem;

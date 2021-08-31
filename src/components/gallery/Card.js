@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-const url = 'assets/cards/'
+const url = '../../../assets/cards/'
 
 export default function Card({card: {description, yearAndNumber, title, src}}) {
     return (
@@ -31,12 +31,12 @@ const Div = styled.div`
     margin: 10px;
     width: 100%;
 `
-const H1 = styled.h1`
+const H1 = styled.h2`
     display: flex;
     justify-content: center;
     color: white;
     text-shadow: 1px 1px red;
-    padding: 10px 20px;
+    padding: 0px 20px;
 `
 const H3 = styled.h3`
     color: white;

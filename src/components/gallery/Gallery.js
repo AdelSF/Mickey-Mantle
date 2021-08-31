@@ -7,7 +7,7 @@ import Card from './Card'
 
 
 export default function Gallery() {
-    const [cardQty, setCardQty] = useState(6)
+    const [cardQty, setCardQty] = useState(3)
     const [videoQty, setVideoQty] = useState(6)
 
     function seeMoreCardsOnClick() {

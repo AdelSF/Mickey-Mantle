@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-// import SmallBaseballImg from '../../../assets/design-photos/lowLight-2-min.jpg'
+import SmallBaseballImg from '../../../assets/design-photos/lowLight-2-min.jpg'
 import BigBaseballImg from '../../../assets/design-photos/stadium-lowLight-min.jpg'
 
 export default function HomeRun({data: {homerunNum, date, place, opponent, pitcher, rightOrLeftHand, position, placeInBattingOrder, distance, inning, menOnBase, atBats, hits, walks, runs, rbi, stolenBases, finalScore, description, quotesAndComments}}) {
     return (
-        <HomeR style={{ backgroundImage: `url(${BigBaseballImg})` }}>
+        <>
+        <HomeR style={{ backgroundImage: `url(${BigBaseballImg})`}}>
                 <UpperTableSetion>
                     <P1>Home Run Number: <Span>{homerunNum}</Span></P1>
                     <P1>Date: <Span>{date}</Span></P1>
@@ -31,6 +32,8 @@ export default function HomeRun({data: {homerunNum, date, place, opponent, pitch
                     <Comments><Span>Qutes & Comments: <br></br></Span>{quotesAndComments}</Comments>
                 </div>
         </HomeR>
+        </>
+
     )
 }
 

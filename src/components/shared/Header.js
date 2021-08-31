@@ -64,8 +64,7 @@ const Items = styled.nav`
 const Item = styled(Link)`
     text-decoration: none;
     color: ${({to}) => menuColor(to)};
-    font-size: 1.1rem;
-    font-weight: 800;
+    font-weight: 600;
     &:hover {
         color: white;
         transition: .7s;
