@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-const url = '../../../assets/cards/'
+// const url = '../../../assets/cards/'
 
 export default function Card({card: {description, yearAndNumber, title, src}}) {
     return (
@@ -9,7 +9,7 @@ export default function Card({card: {description, yearAndNumber, title, src}}) {
                 <H1>{yearAndNumber}</H1>
                 <H3>{title}</H3>
                 <P>{description}</P>
-                <Img src={url+src} />
+                <Img src={require(`../../../assets/cards/${src}`)} />
             </Div>
         </Cards>
     )
