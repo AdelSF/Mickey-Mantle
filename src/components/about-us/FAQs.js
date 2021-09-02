@@ -8,7 +8,7 @@ export default function FAQs({data: {question, answer, imgSrc}}) {
                 <Div>
                     <Div1>
                         <H2>{question}</H2>
-                        <Img src={`assets/about-us-photos/${imgSrc}`} />
+                        <Img src={imgSrc} />
                     </Div1>
                    <P>{answer}</P>
                 </Div>

@@ -3,138 +3,138 @@
         "yearAndNumber": "1952: Card #311",
         "title": "Mickey Mantle's Rookie Card: The historic first Mickey Mantle Baseball Card!",
         "description": "This card, released as part of the 1952 Topps set, has sold at prices as high as $250,000! One of the most prized cards a collector can own, it features original artwork and a facsimile of Mickey's signature.",
-        "src": "1952.gif"      
+        "src": "../src/assets/cards/1952.gif"      
     },
     {
         "yearAndNumber": "1953: Card #82",
         "title": "Mickey Mantle's Second Card",
         "description": "The second Mickey Mantle Topps card again uses a vertical format. It features an original portrait of Mickey. The actual artwork for this card (by artist Gerry Dvorak) sold for $150,000. In addition, a special limited edition signed lithograph set was printed by the Marriott Corporation in the late 1980's. Each lithograph was numbered and signed by Mickey. ",
-        "src": "1953.gif"      
+        "src": "../src/assets/cards/1953.gif"      
     },
     {
         "yearAndNumber": "1954 & 1955: No Regular Issue Mickey Mantle Cards",
         "title": "The 'Lost' Mickey Mantle Card",
         "description": "In 1954 and 1955 Topps did not release any regular issue Mickey Mantle cards. Bowman, a competitor, had signed exclusive agreements with a number of players, preventing Topps from releasing a complete set of cards. In 1956 Topps purchased Bowman and from that point forward all of their card sets were complete. This artwork from the Topps archives shows what one of the \"lost\" cards would have looked like.Although Topps did not release a Mantle card as part of its regular set, they did produce a black & white Mickey Mantle card printed on paper stock instead of the normal card stock. The black & white Mantle card was produced for Sports Illustrated magazine in 1954. SI wanted to insert a complete Yankees team card set in SI issue number 2. The black & white paper cards were not limited to Mickey alone. Topps manufactured black & white paper cards for a number of players who did not have regular cards issued that year.",
-        "src": "1954&1955.gif"      
+        "src": "../src/assets/cards/1954&1955.gif"      
     },
     {
         "yearAndNumber": "1956: Card #135",
         "title": "The 1956 Mickey Mantle Card",
         "description": "The return of Mickey's card to the Topps' set in 1956 uses a horizontal \"dual image\" format with an original art portrait with an action portrait in the background. Mickey's signature is printed over the bottom of the action background painting. It is the last Mantle card that uses artwork instead of a photograph.",
-        "src": "1956.gif"      
+        "src": "../src/assets/cards/1956.gif"      
     },
     {
         "yearAndNumber": "1957: Card #95",
         "title": "The 1957 Mickey Mantle Card",
         "description": "The 1957 series returns to the vertical format. Mickey's card shows him completing a left-handed swing. 1957 was also the first year the Mickey appears on more than one card. Card #407 features Mickey and Yogi Berra as a powerful batting duo.",
-        "src": "1957.gif"      
+        "src": "../src/assets/cards/1957.gif"      
     },
     {
         "yearAndNumber": "1958: Card #150",
         "title": "The 1958 Mickey Mantle Card",
         "description": "Using a vertical format, Mickey's card features a head and shoulders photo portrait. Mickey also appears on card #418 with Hank Aaron.",
-        "src": "1958.gif"      
+        "src": "../src/assets/cards/1958.gif"      
     },
     {
         "yearAndNumber": "1958: Card #487",
         "title": "The 1958 Mickey Mantle Sport Magazine All-Star Card",
         "description": "This vertical format card features Mickey completing a right-handed swing on a red background with yellow stars. It commemorates his selection as a Sport Magazine All-Star.",
-        "src": "1958-1.gif"      
+        "src": "../src/assets/cards/1958-1.gif"      
     },
     {
         "yearAndNumber": "1959: Card #10",
         "title": "The 1959 Mickey Mantle Card",
         "description": "This vertical format card features a head and shoulders photo portrait of Mickey with his signature overlaid at the bottom. Mickey also appears on card #461, which commemorates Mickey as the 1958 American League home run champ.",
-        "src": "1959.gif"      
+        "src": "../src/assets/cards/1959.gif"      
     },
     {
         "yearAndNumber": "1959: Card #564",
         "title": "The 1959 Mickey Mantle Sporting News All-Star Card",
         "description": "This vertical format card features a head and shoulders photo of Mickey in a left-handed batting stance. The card commemorates Mickey's selection to the Sporting News All-Star team.",
-        "src": "1959-1.gif"      
+        "src": "../src/assets/cards/1959-1.gif"      
     },
     {
         "yearAndNumber": "1960: Card #350",
         "title": "The 1960 Mickey Mantle Card",
         "description": "Returning to the horizontal format, this \"dual image\" card features a color photo of Mickey in a relaxed left-handed batting stance with a black and white photo of a full left-handed batting stance in the left background. Mickey also appears on card #160 with Clete Boyer in a Kansas City A's uniform.",
-        "src": "1960.gif"      
+        "src": "../src/assets/cards/1960.gif"      
     },
     {
         "yearAndNumber": "1960: Card #563",
         "title": "The 1960 Mickey Mantle Sport Magazine All-Star Card",
         "description": "This horizontal format card features Mickey in a left-handed batting stance with a large number \"60\" in the background. It commemorates his selection as a Sport Magazine All-Star.",
-        "src": "1960-1.gif"      
+        "src": "../src/assets/cards/1960-1.gif"      
     },
     {
         "yearAndNumber": "1961: Card #300",
         "title": "The 1961 Mickey Mantle Card",
         "description": "This vertical format card features a photo of Mickey in a relaxed right-handed stance. Mickey also appears on card #44 – \"American League Batting Leaders\" – and card #61, which commemorates Mickey's epic 565-foot home run at Griffith Stadium in Washington. 1961 is one of two years with five Mickey Mantle cards.",
-        "src": "1961.gif"      
+        "src": "../src/assets/cards/1961.gif"      
     },
     {
         "yearAndNumber": "1961: Card #475",
         "title": "Mickey Mantle MVP Card – 1956 & 1957",
         "description": "This vertical format card features a head and shoulders photo of Mickey with a bat on his right shoulder on a red background. It commemorates Mickey's selection as back-to-back American League Most Valuable Player in 1956 and 1957.",
-        "src": "1961-1.gif"      
+        "src": "../src/assets/cards/1961-1.gif"      
     },
     {
         "yearAndNumber": "1961: Card #578",
         "title": "The 1961 Mickey Mantle Sporting News All-Star Card",
         "description": "This vertical format card features a head and shoulders photo of Mickey with a bat over his right shoulder. The front page of a Sporting News mock-issue is torn open to show Mickey's image. The card commemorates Mickey's selection to the Sporting News All-Star team.",
-        "src": "1961-2.gif"      
+        "src": "../src/assets/cards/1961-2.gif"      
     },
     {
         "yearAndNumber": "1962: Card #200",
         "title": "The 1962 Mickey Mantle Card",
         "description": "This vertical format card features a head and shoulders photo of Mickey on a simulated wood background. Mickey also appears on card #18 – \"Mantle & Mays,\" card #53 – \"American League Home Run Leaders,\" and card #318 – \"Switch Hitter Connects,\" a three panel horizontal card with photos of Mickey's home run swing. 1962 is the second year with five Mickey Mantle cards.",
-        "src": "1962.gif"      
+        "src": "../src/assets/cards/1962.gif"      
     },
     {
         "yearAndNumber": "1962: Card #471",
         "title": "The 1962 Mickey Mantle Sporting News All-Star Card",
         "description": "This vertical format card features a head and shoulders photo of Mickey with a bat over his right shoulder with a simulated wood frame. It commemorates Mickey's selection to the Sporting News All-Star team.",
-        "src": "1962-1.gif"      
+        "src": "../src/assets/cards/1962-1.gif"      
     },
     {
         "yearAndNumber": "1963: Card #200",
         "title": "The 1963 Mickey Mantle Card",
         "description": "This vertical format card features a head and shoulders photo of Mickey at Yankee Stadium. There is also a black and white photo of Mickey in a right-handed batting stance inset on the bottom right. Mickey also appears on card #2 – \"American League Home Run Leaders,\" and card #173 – \"Bomber's Best\" with Mickey and other Yankees players.",
-        "src": "1963.gif"      
+        "src": "../src/assets/cards/1963.gif"      
     },
     {
         "yearAndNumber": "1964: Card #50",
         "title": "The 1964 Mickey Mantle Card",
         "description": "This vertical format card features Mickey in a right-handed batting stance. Mickey also appears on card #331 – \"American League Bombers\" with Mickey and other American League players.",
-        "src": "1964.gif"      
+        "src": "../src/assets/cards/1964.gif"      
     },
     {
         "yearAndNumber": "1965: Card #350",
         "title": "The 1965 Mickey Mantle Card",
         "description": "This vertical format card features Mickey at the end of a right-handed swing in spring training. Mickey also appears on card #3 – \"American League Home Run Leaders,\" and card #5 – \"American League RBI Leaders.\"",
-        "src": "1965.gif"      
+        "src": "../src/assets/cards/1965.gif"      
     },
     {
         "yearAndNumber": "1966: Card #350",
         "title": "The 1966 Mickey Mantle Card",
         "description": "This vertical format card features Mickey in the batting cage in a left-handed batting stance. It was the first year since 1957 that Mickey had only one card in the Topps set.",
-        "src": "1966.gif"      
+        "src": "../src/assets/cards/1966.gif"      
     },
     {
         "yearAndNumber": "1967: Card #150",
         "title": "The 1967 Mickey Mantle Card",
         "description": "This vertical format card features a head and shoulders photo of a grinning Mickey. A facsimile of his signature is laid over the bottom of the photograph. Mickey's position is listed as outfield, but Mickey played first-base the entire 1967 season.",
-        "src": "1967.gif"      
+        "src": "../src/assets/cards/1967.gif"      
     },
     {
         "yearAndNumber": "1968: Card #280",
         "title": "The 1963 Mickey Mantle Card",
         "description": "This vertical format card features Mickey in a left-handed batting stance. It is the first card of Mickey listing his position as first-base. Mickey also appears on card #490 with Harmon Killebrew and Willie Mays.",
-        "src": "1968.gif"      
+        "src": "../src/assets/cards/1968.gif"      
     },
     {
         "yearAndNumber": "1969: Card #500",
         "title": "The 1969 Mickey Mantle Card",
         "description": "This vertical format card features Mickey in a left-handed batting stance. It was Mickey's last regular season Topps Card. Mickey didn't play in 1969 but didn't announce his retirement until March 1, too late to omit his card. In 1975 Topps released cards featuring the Most Valuable Players. Mickey appears on cards #194, 195, and 200 for his three MVP awards.",
-        "src": "1969.gif"      
+        "src": "../src/assets/cards/1969.gif"      
     }
 ]

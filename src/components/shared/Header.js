@@ -21,7 +21,11 @@ export default function Header() {
 
     return (
         <Menu>
+<<<<<<< HEAD
             <Logo src={logo} alt="logo" />
+=======
+            <Logo src="src/assets/mickey-photos/logo.jpeg" alt="logo" />
+>>>>>>> parent of 1b28cc1... Downgraded webpack to vertion 4
             <Items displayStatus={hamContent} >
                 <Item to='/' >HOME</Item>
                 <Item to='/homeruns' >HOME RUNS</Item>

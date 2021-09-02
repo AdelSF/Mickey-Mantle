@@ -6,9 +6,9 @@ module.exports = (env) => {
     return {
         entry: "./src/index.js",
         output: {
-            publicPath: '/',
             path: DIST_DIR,
             filename: 'bundle.js',
+            publicPath: '/'
         },
 
         module: {
@@ -33,6 +33,7 @@ module.exports = (env) => {
                             
                         ]
                     }
+<<<<<<< HEAD
                 },
                 {
                     test: /\.(png|jp(e*)g|svg|gif)$/,
@@ -45,6 +46,9 @@ module.exports = (env) => {
                       },
                     ],
                 },
+=======
+                }
+>>>>>>> parent of 1b28cc1... Downgraded webpack to vertion 4
             ]
         },
     
@@ -59,6 +63,6 @@ module.exports = (env) => {
             hot: true,
             historyApiFallback: true,
         },
-        mode: env === 'production' ? 'production' : 'development'
+        mode: env.production ? 'production' : 'development'
     }
 }

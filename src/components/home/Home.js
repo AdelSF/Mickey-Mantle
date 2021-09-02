@@ -10,6 +10,7 @@ export default function Home() {
     return (
         <>
             <Section1>
+<<<<<<< HEAD
                 <TopImgMicky src={MickyHitsTheBall} alt="Micky Hits The Ball" />
                 <InnerSection>
                     <H2>MICKEY</H2>
@@ -22,6 +23,20 @@ export default function Home() {
                 <MickyOnLeftImg src={MickeySmiling} alt="Micky Smiling" />
                 <div>
                     <TheAmericanDreamImg2 src={TheAmericanDreamImg} alt="The American Dream comes to life" /> 
+=======
+                <TopImgMicky src="../src/assets/mickey-photos/2.png" alt="Micky Hits The Ball" />
+                <InnerSection>
+                    <H2>Mickey</H2>
+                    <H1>Mantle</H1>
+                    <TopImgBall src="../src/assets/mickey-photos/smoking-ball.jpg" alt="The ball on top" />
+                    <TheAmericanDreamImg1 src="../src/assets/mickey-photos/header.jpeg" alt="The American Dream comes to life" /> 
+                </InnerSection>
+            </Section1> 
+            <Section2>
+                <MickyOnLeftImg src="../src/assets/mickey-photos/Micky-1.jpg" alt="Micky Smiling" />
+                <div>
+                    <TheAmericanDreamImg2 src="../src/assets/mickey-photos/header.jpeg" alt="The American Dream comes to life" /> 
+>>>>>>> parent of 1b28cc1... Downgraded webpack to vertion 4
                     <Article>
                         Welcome to our Official Mickey Mantle: The American Dream Comes To Life® Store. Operating since 1988, our first product was the award-winning "videography™" program, Mickey Mantle: The American Dream Comes To Life®. It's the first truly autobiographical documentary ever made. Mickey tells his own stories - from both on and off the field - in his own words, capturing his warmth, charm, humor and charisma. It became a BILLBOARD Magazine National Bestseller for two consecutive years and was broadcast nationwide on Public Television. USA Today, The New York Daily News and The Washington Post/Los Angeles Times Syndicate all called it, "The best baseball program ever made!" (In the photo Mickey and producer/director Lew Rothgeb are at Mickey Mantle's Restaurant in New York announcing the program's release on video.) Mickey said it was, "The best project I ever did!"
                     </Article>
@@ -31,7 +46,11 @@ export default function Home() {
             <Section3>
                 <div>
                     <H4>Short Biography</H4>
+<<<<<<< HEAD
                     <MickeyFamilyImg src={FamilyImg} alt="Mickey Mantle image with family" /> 
+=======
+                    <MickeyFamilyImg src="../src/assets/mickey-photos/mm-family.jpeg" alt="Mickey Mantle image with family" /> 
+>>>>>>> parent of 1b28cc1... Downgraded webpack to vertion 4
                     
                     <H3>Named after a Hall of Fame Catcher</H3> 
                         <Article2>
