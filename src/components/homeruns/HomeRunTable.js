@@ -5,6 +5,7 @@ import stadium1 from '../../assets/design-photos/stadium-lowLight-min.jpg'
 export default function HomeRun({data: {homerunNum, date, place, opponent, pitcher, rightOrLeftHand, position, placeInBattingOrder, distance, inning, menOnBase, atBats, hits, walks, runs, rbi, stolenBases, finalScore, description, quotesAndComments}}) {
     return (
         <>
+        {/* style={{backgroundImage: `${stadium2}`}} */}
         <HomeR>
                 <UpperTableSetion>
                     <P1>Home Run Number: <Span>{homerunNum}</Span></P1>
@@ -38,7 +39,7 @@ export default function HomeRun({data: {homerunNum, date, place, opponent, pitch
 
 
 const HomeR = styled.div`
-    /* background-position: 50% 70%; */
+    background-position: 50% 70%;
     background-image: url(${stadium1});
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,9 +48,6 @@ const HomeR = styled.div`
     border-radius: 10px;
     color: white;
     padding: 30px;
-    @media (max-width: 900px) {
-        background-image: url(${stadium2});
-    }
 `
 const P1 = styled.p`
     display: inline-flex;
