@@ -1,12 +1,12 @@
 import styled from 'styled-components'
-// import stadium2 from "../../assets/design-photos/lowLight-2-min.jpg"
-// import stadium1 from '../../assets/design-photos/stadium-lowLight-min.jpg'
+import stadium2 from "../../assets/design-photos/lowLight-2-min.jpg"
+import stadium1 from '../../assets/design-photos/stadium-lowLight-min.jpg'
 
 export default function HomeRun({data: {homerunNum, date, place, opponent, pitcher, rightOrLeftHand, position, placeInBattingOrder, distance, inning, menOnBase, atBats, hits, walks, runs, rbi, stolenBases, finalScore, description, quotesAndComments}}) {
     return (
         <>
-        
         <HomeR>
+            <Img src={stadium1} />
                 <UpperTableSetion>
                     <P1>Home Run Number: <Span>{homerunNum}</Span></P1>
                     <P1>Date: <Span>{date}</Span></P1>
@@ -48,6 +48,12 @@ const HomeR = styled.div`
     border-radius: 10px;
     color: white;
     padding: 30px;
+`
+const Img = styled.img`
+    position: absolute;
+    z-index: -1;
+    width: 80%;
+    /* position: 50% 70%; */
 `
 const P1 = styled.p`
     display: inline-flex;
