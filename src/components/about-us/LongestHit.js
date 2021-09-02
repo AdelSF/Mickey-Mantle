@@ -9,7 +9,7 @@ export default function LongestHit({data: {dateAndLocation, description, imgSrc}
                     <H2>{dateAndLocation}</H2>
                     <Div1>
                         <P>{description}</P>
-                        <Img src={imgSrc} />
+                        <Img src={require(`../../assets/about-us-photos/${imgSrc}`)} /> 
                     </Div1>
                 </Div>
             </Hits>
@@ -53,4 +53,5 @@ const P = styled.p`
 `
 const Img = styled.img`
     margin: 2%;
+    width: 300px;
 `

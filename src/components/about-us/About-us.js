@@ -8,6 +8,7 @@ import FAQs from './FAQs'
 export default function AboutUs() {
     const [qAndA, setQAndA] = useState(3);
     const [longHits, setLongHits] = useState(3);
+    console.log("hi",faqs)
 
     function seeMoreFaqsOnClick() {
         if (qAndA + 3 < faqs.length){

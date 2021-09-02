@@ -1,12 +1,11 @@
-import React, { useState } from 'react'
 import styled from 'styled-components'
-// import SmallBaseballImg from '../../../assets/design-photos/lowLight-2-min.jpg'
-import BigBaseballImg from '../../../assets/design-photos/stadium-lowLight-min.jpg'
+import stadium2 from "../../assets/design-photos/lowLight-2-min.jpg"
+import stadium1 from '../../assets/design-photos/stadium-lowLight-min.jpg'
 
 export default function HomeRun({data: {homerunNum, date, place, opponent, pitcher, rightOrLeftHand, position, placeInBattingOrder, distance, inning, menOnBase, atBats, hits, walks, runs, rbi, stolenBases, finalScore, description, quotesAndComments}}) {
     return (
         <>
-        <HomeR style={{ backgroundImage: `url(${BigBaseballImg})`}}>
+        <HomeR>
                 <UpperTableSetion>
                     <P1>Home Run Number: <Span>{homerunNum}</Span></P1>
                     <P1>Date: <Span>{date}</Span></P1>
@@ -39,12 +38,8 @@ export default function HomeRun({data: {homerunNum, date, place, opponent, pitch
 
 
 const HomeR = styled.div`
-<<<<<<< HEAD
-    /* background-image: url(${BigBaseballImg}); */
-        /* background-position: 50% 70%; */
-=======
-    background-image: url(${"../../src/assets/design-photos/stadium-lowLight-min.jpg"});
->>>>>>> parent of 1b28cc1... Downgraded webpack to vertion 4
+    /* background-position: 50% 70%; */
+    background-image: url(${stadium1});
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid white;
@@ -53,11 +48,7 @@ const HomeR = styled.div`
     color: white;
     padding: 30px;
     @media (max-width: 900px) {
-<<<<<<< HEAD
-        /* background-image: url(${SmallBaseballImg}); */
-=======
-        background-image: url(${"../../src/assets/design-photos/lowLight-2-min.jpg"});
->>>>>>> parent of 1b28cc1... Downgraded webpack to vertion 4
+        background-image: url(${stadium2});
     }
 `
 const P1 = styled.p`
