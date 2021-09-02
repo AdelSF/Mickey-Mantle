@@ -1,12 +1,12 @@
 import styled from 'styled-components'
 import stadium2 from "../../assets/design-photos/lowLight-2-min.jpg"
-import stadium1 from '../../assets/design-photos/stadium-lowLight-min.jpg'
+// import stadium1 from '../../assets/design-photos/stadium-lowLight-min.jpg'
 
 export default function HomeRun({data: {homerunNum, date, place, opponent, pitcher, rightOrLeftHand, position, placeInBattingOrder, distance, inning, menOnBase, atBats, hits, walks, runs, rbi, stolenBases, finalScore, description, quotesAndComments}}) {
     return (
         <>
-        {/* style={{backgroundImage: `${stadium2}`}} */}
-        <HomeR>
+        
+        <HomeR style={{backgroundImage: `${stadium2}`}}>
                 <UpperTableSetion>
                     <P1>Home Run Number: <Span>{homerunNum}</Span></P1>
                     <P1>Date: <Span>{date}</Span></P1>
@@ -40,7 +40,7 @@ export default function HomeRun({data: {homerunNum, date, place, opponent, pitch
 
 const HomeR = styled.div`
     background-position: 50% 70%;
-    background-image: url(${stadium1});
+    /* background-image: url(${stadium1}); */
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid white;
