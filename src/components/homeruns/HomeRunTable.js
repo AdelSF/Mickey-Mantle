@@ -1,11 +1,12 @@
 import styled from 'styled-components'
-import stadium2 from "../../assets/design-photos/lowLight-2-min.jpg"
-import stadium1 from '../../assets/design-photos/stadium-lowLight-min.jpg'
+// import stadium2 from "../../assets/design-photos/lowLight-2-min.jpg"
+// import stadium1 from '../../assets/design-photos/stadium-lowLight-min.jpg'
 
 export default function HomeRun({data: {homerunNum, date, place, opponent, pitcher, rightOrLeftHand, position, placeInBattingOrder, distance, inning, menOnBase, atBats, hits, walks, runs, rbi, stolenBases, finalScore, description, quotesAndComments}}) {
     return (
         <>
         <HomeR>
+            <Img src={require("../../assets/design-photos/stadium-lowLight-min.jpg")} />
                 <UpperTableSetion>
                     <P1>Home Run Number: <Span>{homerunNum}</Span></P1>
                     <P1>Date: <Span>{date}</Span></P1>
@@ -37,15 +38,27 @@ export default function HomeRun({data: {homerunNum, date, place, opponent, pitch
 
 
 const HomeR = styled.div`
-    background-position: 50% 70%;
-    background-image: url(${stadium1});
+    /* background-image: url(${stadium1}); */
+    /* background-position: 50% 70%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     border: 1px solid white;
     margin: 3%;
+    width: 90%;
+    height: 90%;
     border-radius: 10px;
     color: white;
     padding: 30px;
+`
+
+const Img = styled.img`
+    position: absolute;
+    z-index: -1;
+    size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 3%;
+
 `
 
 const P1 = styled.p`
