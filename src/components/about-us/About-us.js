@@ -32,7 +32,7 @@ export default function AboutUs() {
                 {[...Array(qAndA).keys()].map((index) => <FAQs data={faqs[index]} key={`faqs${index}`}/> )}
             </div>
             <SeeMoreFaqsBtn onClick={seeMoreFaqsOnClick}>See More Q&A</SeeMoreFaqsBtn>
-                <H1>Longest Hits</H1>
+                <H1>Longest Home Runs</H1>
             <Div1>
                 <H2> First Longest Hit</H2>
                 <P>Mickey's longest measured home run (measured when he hit it) was hit on April 17, 1953 at Griffith Stadium in Washington, DC. It is his best-known homer and the home run that coined the term "tape measure home run." The pitcher was Chuck Stobbs. It traveled 565 feet and was measured by Yankees' PR Director Red Patterson, who used a measuring tape to determine the exact distance. This 565-foot home run was the only ball ever hit that cleared the left-field bleachers at Griffith Stadium in a regular season game in its 32 year history. However, several other Mickey homers probably went farther. Here are some other notable Mickey Mantle home runs:</P>

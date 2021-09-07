@@ -27,7 +27,7 @@ export default function Header() {
                 <Item to='/homeruns' >HOME RUNS</Item>
                 <Item to='/shop' >SHOP</Item>
                 <Item to='/gallery' >GALLERY</Item>
-                <Item to='/aboutus' >ABOUT US</Item>
+                <Item to='/aboutus' >ABOUT THE MICK</Item>
             </Items>
             <Ham onClick={hamOnClick}>{hamContent}</Ham>
         </Menu>
