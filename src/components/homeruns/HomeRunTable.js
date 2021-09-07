@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import stadium2 from "../../assets/design-photos/lowLight-2-min.jpg"
-import stadium1 from '../../assets/design-photos/stadium-lowLight-min.jpg'
+import stadium2 from "assets/design-photos/lowLight-2-min.jpg"
+import stadium1 from 'assets/design-photos/stadium-lowLight-min.jpg'
 
 export default function HomeRun({data: {homerunNum, date, place, opponent, pitcher, rightOrLeftHand, position, placeInBattingOrder, distance, inning, menOnBase, atBats, hits, walks, runs, rbi, stolenBases, finalScore, description, quotesAndComments}}) {
     return (
