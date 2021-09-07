@@ -5,7 +5,7 @@ export default function HomeRun({data: {homerunNum, date, place, opponent, pitch
         <Container>
             <HomeR>
                 <BigBackgroundImg src={require("../../assets/design-photos/stadium-lowLight-min.jpg")} />
-                <SmallBackgroundImg src={require("../../assets/design-photos/lowLight-2-min.jpg")} />
+                {/* <SmallBackgroundImg src={require("../../assets/design-photos/lowLight-2-min.jpg")} /> */}
                     <UpperTableSetion>
                         <P1>Home Run Number: <Span>{homerunNum}</Span></P1>
                         <P1>Date: <Span>{date}</Span></P1>
