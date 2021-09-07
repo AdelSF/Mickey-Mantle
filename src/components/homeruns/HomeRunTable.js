@@ -1,64 +1,70 @@
 import styled from 'styled-components'
-// import stadium2 from "../../assets/design-photos/lowLight-2-min.jpg"
-// import stadium1 from '../../assets/design-photos/stadium-lowLight-min.jpg'
 
 export default function HomeRun({data: {homerunNum, date, place, opponent, pitcher, rightOrLeftHand, position, placeInBattingOrder, distance, inning, menOnBase, atBats, hits, walks, runs, rbi, stolenBases, finalScore, description, quotesAndComments}}) {
     return (
-        <>
-        <HomeR>
-            <Img src={require("../../assets/design-photos/stadium-lowLight-min.jpg")} />
-                <UpperTableSetion>
-                    <P1>Home Run Number: <Span>{homerunNum}</Span></P1>
-                    <P1>Date: <Span>{date}</Span></P1>
-                    <P1>Place: <Span>{place}</Span></P1>
-                    <P1>Opponent: <Span>{opponent}</Span></P1>
-                    <P1>Pitcher: <Span>{pitcher}</Span></P1>
-                    <P1>Hit R-handed or L-handed: <Span>{rightOrLeftHand}</Span></P1>
-                    <P1>Place In Batting Order: <Span>{placeInBattingOrder}</Span></P1>
-                    <P1>Position: <Span>{position}</Span></P1>
-                    <P1>Distance: <Span>{distance}</Span></P1>
-                    <P1>Inning: <Span>{inning}</Span></P1>
-                    <P1>Men on Base: <Span>{menOnBase}</Span></P1>
-                    <P1>At-Bats: <Span>{atBats}</Span></P1>
-                    <P1>Hits: <Span>{hits}</Span></P1>
-                    <P1>Walks: <Span>{walks}</Span></P1>
-                    <P1>Runs: <Span>{runs}</Span></P1>
-                    <P1>RBI: <Span>{rbi}</Span></P1>
-                    <P1>Stolen Bases: <Span>{stolenBases}</Span></P1>
-                    <P1>Final Score: <Span>{finalScore}</Span></P1>
-                </UpperTableSetion>
-                <div>
-                    <Description><Span>Description: </Span>{description}</Description>
-                    <Comments><Span>Qutes & Comments: <br></br></Span>{quotesAndComments}</Comments>
-                </div>
-        </HomeR>
-        </>
+        <Container>
+            <HomeR>
+                <BigBackgroundImg src={require("../../assets/design-photos/stadium-lowLight-min.jpg")} />
+                <SmallBackgroundImg src={require("../../assets/design-photos/lowLight-2-min.jpg")} />
+                    <UpperTableSetion>
+                        <P1>Home Run Number: <Span>{homerunNum}</Span></P1>
+                        <P1>Date: <Span>{date}</Span></P1>
+                        <P1>Place: <Span>{place}</Span></P1>
+                        <P1>Opponent: <Span>{opponent}</Span></P1>
+                        <P1>Pitcher: <Span>{pitcher}</Span></P1>
+                        <P1>Hit R-handed or L-handed: <Span>{rightOrLeftHand}</Span></P1>
+                        <P1>Place In Batting Order: <Span>{placeInBattingOrder}</Span></P1>
+                        <P1>Position: <Span>{position}</Span></P1>
+                        <P1>Distance: <Span>{distance}</Span></P1>
+                        <P1>Inning: <Span>{inning}</Span></P1>
+                        <P1>Men on Base: <Span>{menOnBase}</Span></P1>
+                        <P1>At-Bats: <Span>{atBats}</Span></P1>
+                        <P1>Hits: <Span>{hits}</Span></P1>
+                        <P1>Walks: <Span>{walks}</Span></P1>
+                        <P1>Runs: <Span>{runs}</Span></P1>
+                        <P1>RBI: <Span>{rbi}</Span></P1>
+                        <P1>Stolen Bases: <Span>{stolenBases}</Span></P1>
+                        <P1>Final Score: <Span>{finalScore}</Span></P1>
+                    </UpperTableSetion>
+                    <div>
+                        <Description><Span>Description: </Span>{description}</Description>
+                        <Comments><Span>Qutes & Comments: <br></br></Span>{quotesAndComments}</Comments>
+                    </div>
+            </HomeR>
+        </Container>
     )
 }
 
-
-const HomeR = styled.div`
-    /* background-image: url(${stadium1}); */
-    /* background-position: 50% 70%;
-    background-repeat: no-repeat;
-    background-size: cover; */
+const Container = styled.div`
+    margin: 30px;
+`
+const HomeR = styled.div`    
     border: 1px solid white;
-    margin: 3%;
-    width: 90%;
-    height: 90%;
     border-radius: 10px;
     color: white;
-    padding: 30px;
+    position: relative;
 `
 
-const Img = styled.img`
+const BigBackgroundImg = styled.img`
     position: absolute;
     z-index: -1;
-    size: cover;
     width: 100%;
     height: 100%;
-    margin: 3%;
-
+    filter: blur(2px);
+    @media (max-width: 900px) {
+        display: none;
+    }
+`
+const SmallBackgroundImg = styled.img`
+    display: none;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    filter: blur(1px);
+    @media (max-width: 900px) {
+        display: block;
+    }
 `
 
 const P1 = styled.p`
@@ -74,6 +80,7 @@ const UpperTableSetion = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 30px;
 `
 const Description = styled.p`
     display: block;
