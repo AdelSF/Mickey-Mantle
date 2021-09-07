@@ -5,7 +5,6 @@ export default function HomeRun({data: {homerunNum, date, place, opponent, pitch
         <Container>
             <HomeR>
                 <BigBackgroundImg src={require("../../assets/design-photos/stadium-lowLight-min.jpg")} />
-                {/* <SmallBackgroundImg src={require("../../assets/design-photos/lowLight-2-min.jpg")} /> */}
                     <UpperTableSetion>
                         <P1>Home Run Number: <Span>{homerunNum}</Span></P1>
                         <P1>Date: <Span>{date}</Span></P1>
@@ -51,20 +50,6 @@ const BigBackgroundImg = styled.img`
     width: 100%;
     height: 100%;
     filter: blur(2px);
-    @media (max-width: 900px) {
-        display: none;
-    }
-`
-const SmallBackgroundImg = styled.img`
-    display: none;
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    filter: blur(1px);
-    @media (max-width: 900px) {
-        display: block;
-    }
 `
 
 const P1 = styled.p`
