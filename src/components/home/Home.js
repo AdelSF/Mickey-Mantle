@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import MickyHitsTheBall from '../../assets/mickey-photos/2.png'
+import MickeyWithText from '../../assets/mickey-photos/MickeyWithText.png'
 import TheBallFire from '../../assets/mickey-photos/baseball-fire.jpg'
 import MickeySmiling from '../../assets/mickey-photos/Micky-1.jpg'
 import TheAmericanDreamImg from '../../assets/mickey-photos/header.jpeg'
@@ -10,14 +10,9 @@ export default function Home() {
     return (
         <>
             <Section1>
-                <TopImgMicky src={MickyHitsTheBall} alt="Micky Hits The Ball" />
-                <InnerSection>
-                    <H2>MICKEY</H2>
-                    <H1>MANTLE</H1>
-                    <TopImgBall src={TheBallFire} alt="The ball on top" />
-                    <TheAmericanDreamImg1 src={TheAmericanDreamImg} alt="The American Dream comes to life" /> 
-                </InnerSection>
+                <TopImgMicky src={MickeyWithText} alt="Micky Hits The Ball" />
             </Section1> 
+                <UnderImgText>Mickey Mantle</UnderImgText>
             <Section2>
                 <MickyOnLeftImg src={MickeySmiling} alt="Micky Smiling" />
                 <div>
@@ -58,22 +53,21 @@ export default function Home() {
 }
 
 const Section1 = styled.section`
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    @media (max-width: 1200px) {
-        display: flex;
-    }
+    display: flex;
 `
 const InnerSection = styled.div`
     width: 100%;
+    /* display: flex; */
 `
 const TopImgMicky = styled.img`
-    width: 100%;
-    margin: 0 50px;
-    @media (max-width: 1200px) {
-        display: none;
-    }
-    `
+    width: 90%;
+    margin: 0 auto;
+`
+const UnderImgText = styled.h3`
+    color: white;
+    display: block;
+    /* flex-direction: column; */
+`
 const TopImgBall = styled.img`
     display: flex;
     height: 180px;
